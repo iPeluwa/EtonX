@@ -1,18 +1,424 @@
-# Test Page
+# Writing Skills More...
 
-Skip to main content Side panel Home All Courses School Admin Admin Panel Subscriptions More Search Close Search Toggle search input 0 Notifications You have no notifications See all 0 There are 0 unread conversations KS Profile Grades Calendar Private files Reports Preferences Switch role to... Log out Home All Courses School Admin Collapse Expand Admin Panel Subscriptions Welcome Dashboard Research Skills Orientation Welcome Orientation 50 % Section 1: Good Research Section 2: Planning Your Research Section 3: Finding Resources Section 4: Using Resources Section 5: Referencing Section 6: Presenting Your Findings Summing Up Journal Resources Welcome Pupil Handbook Check Your Research Skills Welcome Completion requirements . Last modified: Tuesday, 13 February 2024, 1:55 PM Next activity You are logged in as Kazeem Shasore ( Log out ) Reset user tour on this page Policies Terms of Service Privacy Policy Safeguarding Policy © 2024 EtonX Limited. EtonX is a wholly owned trading subsidiary of Eton College. Company Number 09624046. Powered by Moodle Workplace, Accipio Edition Messaging Contacts Messages selected: 1 × Contacts 0 There are 0 pending contact requests Settings Contacts Requests 0 There are 0 pending contact requests No contacts No contact requests Contact request sent Personal space Save draft messages, links, notes etc. to access later. Delete for me and for everyone else Block Unblock Remove Add Delete Delete Send contact request Accept and add to contacts Decline OK Cancel Starred ( ) total conversations There are unread conversations No starred conversations Group ( ) total conversations There are unread conversations No group conversations Private ( ) total conversations There are unread conversations No private conversations Contacts Non-contacts Load more Messages Load more No results Search people and messages Privacy You can restrict who can message you Accept messages from: My contacts only My contacts and anyone in my courses Notification preferences General Use enter to send Delete selected messages Send contact request You have blocked this user. Unblock user You are unable to message this user See all We are using cookies We use some essential cookies to make this service work. We’d also like to use analytics cookies so we can understand how you use the service and make improvements. Accept All Reject All Set cookie preference x
+## Course Overview
 
-<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MDNCJTL9" width="800" height="600"></iframe>
+Participate in the course to gain experience points and level up!
 
-<iframe src="https://view.genial.ly/65cb71ab459d460015cafd55" width="800" height="600"></iframe>
+**Progress**: Not available
 
-<iframe src="about:blank" width="800" height="600"></iframe>
+## Sections
 
-<iframe src="https://app.hubspot.com/conversations-visitor/4358161/threads/utk/c48a697cb6614025885eb73343e199d3?uuid=0b04f6aa160048049e6840030b180ce0&mobile=false&mobileSafari=false&hideWelcomeMessage=false&hstc=38148988.383bb61a7e912171d4c23c578ad33f84.1745415080683.1745415080683.1745415080683.1&domain=my.etonx.com&inApp53=false&messagesUtk=c48a697cb6614025885eb73343e199d3&url=https%3A%2F%2Fmy.etonx.com%2Fmod%2Fpage%2Fview.php%3Fid%3D25269&inline=false&isFullscreen=false&globalCookieOptOut=&isFirstVisitorSession=false&isAttachmentDisabled=false&isInitialInputFocusDisabled=false&enableWidgetCookieBanner=false&isInCMS=false&hideScrollToButton=true&isIOSMobile=false&hubspotUtk=383bb61a7e912171d4c23c578ad33f84" width="800" height="600"></iframe>
+<details>
+<summary>COURSE HOME</summary>
 
-![etonx-logo.png](../Test_Page_25269/attachments/etonx-logo.png)
+No activities available.
 
-![1714640510](../Test_Page_25269/attachments/1714640510)
+</details>
 
-![monologofiltericon=1](../Test_Page_25269/attachments/monologofiltericon=1)
+<details>
+<summary>Section 2</summary>
+
+No activities available.
+
+</details>
+
+<details>
+<summary>Getting Started</summary>
+
+Select activity 😄 Welcome 😄 Welcome Interactive Task Completion Learners must . Select activity 📚 All About Your Course 📚 All About Your Course Interactive Task Completion Learners must . Select activity ✅ Check Your Writing Skills ✅ Check Your Writing Skills Accipio Diagnose Completion You have to add at least one completion condition.
+
+No activities available.
+
+</details>
+
+<details>
+<summary>Section 4</summary>
+
+No activities available.
+
+</details>
+
+<details>
+<summary>Section 1: A Good Essay</summary>
+
+Select activity What's in Section 1? What's in Section 1? Interactive Task Completion Learners must . Select activity What makes you a good academic writer? What makes you a good academic writer? Interactive Task Completion Learners must . Select activity 📝 Check-in: What makes a good academic writer? 📝 Check-in: What makes a good academic writer? H5P Completion Learners must . Select activity Understanding Essay Types Understanding Essay Types Quiz Completion Learners must . Select activity 📝 Check-in: Understanding Essay Types 📝 Check-in: Understanding Essay Types Quiz Completion Learners must . Select activity Obstacles to Writing Obstacles to Writing Interactive Task Completion Learners must . Select activity 👤 Case Study: Obstacles to Writing 👤 Case Study: Obstacles to Writing Interactive Task Completion Learners must . Select activity Finding your voice Finding your voice Interactive Task Completion Learners must . Select activity Developing your voice Developing your voice Page Completion Learners must . Select activity 🤔 Reflect on your learning 🤔 Reflect on your learning Interactive Task Completion Learners must . Select activity Section 1 Summary Section 1 Summary Questionnaire Completion Learners must .
+
+### Activities
+
+#### Understanding Essay Types Quiz
+
+![monologofiltericon=1](Course_471/attachments/monologofiltericon=1)
+
+#### Understanding Essay Types Quiz
+
+[Understanding Essay Types Quiz](https://my.etonx.com/mod/quiz/view.php?id=25535)
+
+#### 📝 Check-in: Understanding Essay Types Quiz
+
+![monologofiltericon=1](Course_471/attachments/monologofiltericon=1)
+
+#### 📝 Check-in: Understanding Essay Types Quiz
+
+[📝 Check-in: Understanding Essay Types Quiz](https://my.etonx.com/mod/quiz/view.php?id=25536)
+
+</details>
+
+<details>
+<summary>Section 6</summary>
+
+### Activities
+
+#### Understanding Essay Types Quiz
+
+![monologofiltericon=1](Course_471/attachments/monologofiltericon=1)
+
+#### Understanding Essay Types Quiz
+
+[Understanding Essay Types Quiz](https://my.etonx.com/mod/quiz/view.php?id=25535)
+
+#### 📝 Check-in: Understanding Essay Types Quiz
+
+![monologofiltericon=1](Course_471/attachments/monologofiltericon=1)
+
+#### 📝 Check-in: Understanding Essay Types Quiz
+
+[📝 Check-in: Understanding Essay Types Quiz](https://my.etonx.com/mod/quiz/view.php?id=25536)
+
+</details>
+
+<details>
+<summary>Section 2: Researching the Topic</summary>
+
+Select activity What's in Section 2? What's in Section 2? Interactive Task Completion Learners must . Select activity Analysing Titles Analysing Titles H5P Completion Learners must . Select activity 📝 Check-in: Analysing Titles 📝 Check-in: Analysing Titles Quiz Completion Learners must . Select activity Brainstorming Brainstorming Interactive Task Completion Learners must . Select activity 🗣️ Collaborate: Brainstorming Ideas 🗣️ Collaborate: Brainstorming Ideas Questionnaire Completion Learners must . Select activity 📝 Check-in: Brainstorming 📝 Check-in: Brainstorming Questionnaire Completion Learners must . Select activity How to Reference How to Reference Interactive Task Completion Learners must . Select activity 📝 Check In: How to Reference 📝 Check In: How to Reference Quiz Completion Learners must . Select activity Referencing Styles Referencing Styles Interactive Task Completion Learners must . Select activity Working with Sources Working with Sources Quiz Completion Learners must . Select activity 🗣️ Collaborate: Working with Sources 🗣️ Collaborate: Working with Sources Questionnaire Completion Learners must . Select activity 🗣️ Collaborate: Brainstorming ideas 🗣️ Collaborate: Brainstorming ideas Page Completion Learners must . Select activity 🤔 Reflect on your learning 🤔 Reflect on your learning Interactive Task Completion Learners must . Select activity Section 2 Summary Section 2 Summary Questionnaire Completion Learners must .
+
+### Activities
+
+#### 📝 Check-in: Analysing Titles Quiz
+
+![monologofiltericon=1](Course_471/attachments/monologofiltericon=1)
+
+#### 📝 Check-in: Analysing Titles Quiz
+
+[📝 Check-in: Analysing Titles Quiz](https://my.etonx.com/mod/quiz/view.php?id=25549)
+
+#### 📝 Check In: How to Reference Quiz
+
+![monologofiltericon=1](Course_471/attachments/monologofiltericon=1)
+
+#### 📝 Check In: How to Reference Quiz
+
+[📝 Check In: How to Reference Quiz](https://my.etonx.com/mod/quiz/view.php?id=25556)
+
+#### Working with Sources Quiz
+
+![monologofiltericon=1](Course_471/attachments/monologofiltericon=1)
+
+#### Working with Sources Quiz
+
+[Working with Sources Quiz](https://my.etonx.com/mod/quiz/view.php?id=25559)
+
+</details>
+
+<details>
+<summary>Section 8</summary>
+
+### Activities
+
+#### 📝 Check-in: Analysing Titles Quiz
+
+![monologofiltericon=1](Course_471/attachments/monologofiltericon=1)
+
+#### 📝 Check-in: Analysing Titles Quiz
+
+[📝 Check-in: Analysing Titles Quiz](https://my.etonx.com/mod/quiz/view.php?id=25549)
+
+#### 📝 Check In: How to Reference Quiz
+
+![monologofiltericon=1](Course_471/attachments/monologofiltericon=1)
+
+#### 📝 Check In: How to Reference Quiz
+
+[📝 Check In: How to Reference Quiz](https://my.etonx.com/mod/quiz/view.php?id=25556)
+
+#### Working with Sources Quiz
+
+![monologofiltericon=1](Course_471/attachments/monologofiltericon=1)
+
+#### Working with Sources Quiz
+
+[Working with Sources Quiz](https://my.etonx.com/mod/quiz/view.php?id=25559)
+
+</details>
+
+<details>
+<summary>Section 3: Planning your Essay</summary>
+
+Select activity What's in Section 3? What's in Section 3? Interactive Task Completion Learners must . Select activity Identifying your Argument Identifying your Argument Interactive Task Completion Learners must . Select activity Structures and Frameworks Structures and Frameworks H5P Completion Learners must Activity complete Select activity 🤔 Reflect: Structures and Frameworks 🤔 Reflect: Structures and Frameworks Page Completion Learners must . Select activity Planning Techniques Planning Techniques Interactive Task Completion Learners must . Select activity 📝 Check-in: Planning techniques 📝 Check-in: Planning techniques Quiz Completion Learners must . Select activity Creating a plan and gathering evidence Creating a plan and gathering evidence Interactive Task Completion Learners must . Select activity 🤔 Reflect on your learning 🤔 Reflect on your learning Interactive Task Completion Learners must . Select activity Section 3 Summary Section 3 Summary Questionnaire Completion Learners must .
+
+### Activities
+
+#### 📝 Check-in: Planning techniques Quiz
+
+![monologofiltericon=1](Course_471/attachments/monologofiltericon=1)
+
+#### 📝 Check-in: Planning techniques Quiz
+
+[📝 Check-in: Planning techniques Quiz](https://my.etonx.com/mod/quiz/view.php?id=25570)
+
+</details>
+
+<details>
+<summary>Section 10</summary>
+
+### Activities
+
+#### 📝 Check-in: Planning techniques Quiz
+
+![monologofiltericon=1](Course_471/attachments/monologofiltericon=1)
+
+#### 📝 Check-in: Planning techniques Quiz
+
+[📝 Check-in: Planning techniques Quiz](https://my.etonx.com/mod/quiz/view.php?id=25570)
+
+</details>
+
+<details>
+<summary>Section 4: Building your Argument</summary>
+
+Select activity What's in Section 4? What's in Section 4? Interactive Task Completion Learners must . Select activity Writing Introductions Writing Introductions Interactive Task Completion Learners must . Activity complete Select activity Structuring your paragraphs Structuring your paragraphs Interactive Task Completion Learners must . Activity complete Select activity 📝 Check-in: Structuring your paragraphs 📝 Check-in: Structuring your paragraphs H5P Completion Learners must Activity complete Select activity Supporting Evidence Supporting Evidence Interactive Task Completion Learners must . Activity complete Select activity Writing conclusions Writing conclusions Interactive Task Completion Learners must . Select activity Contentious Statements Contentious Statements Interactive Task Completion Learners must . Select activity 🤔 Reflect on your learning 🤔 Reflect on your learning Interactive Task Completion Learners must . Select activity Section 4 Summary Section 4 Summary Questionnaire Completion Learners must .
+
+No activities available.
+
+</details>
+
+<details>
+<summary>Section 12</summary>
+
+No activities available.
+
+</details>
+
+<details>
+<summary>Section 5: Developing your Writing Style</summary>
+
+Select activity What's in Section 5? What's in Section 5? Interactive Task Completion Learners must . Select activity Appropriate writing styles Appropriate writing styles Interactive Task Completion Learners must . Select activity 📝 Check-in: Appropriate writing styles 📝 Check-in: Appropriate writing styles Quiz Completion Learners must Activity complete Select activity Active and Passive Voice Active and Passive Voice Interactive Task Completion Learners must . Select activity 📝 Pre-check: Writing effective sentences 📝 Pre-check: Writing effective sentences Quiz Completion Learners must . Select activity Writing effective sentences Writing effective sentences Interactive Task Completion Learners must . Select activity Using expressions to develop your essay Using expressions to develop your essay H5P Completion Learners must Activity complete Select activity 📝 Check-in: Using expressions to develop your essay 📝 Check-in: Using expressions to develop your essay Quiz Completion Learners must . Select activity Precise Language Precise Language Interactive Task Completion Learners must . Select activity 📝 Check-in: Precise language 📝 Check-in: Precise language Quiz Completion Learners must . Select activity 🤔 Reflect on your learning 🤔 Reflect on your learning Interactive Task Completion Learners must . Select activity Section 5 Summary Section 5 Summary Questionnaire Completion Learners must .
+
+### Activities
+
+#### 📝 Check-in: Appropriate writing styles Quiz
+
+![monologofiltericon=1](Course_471/attachments/monologofiltericon=1)
+
+#### 📝 Check-in: Appropriate writing styles Quiz
+
+[📝 Check-in: Appropriate writing styles Quiz](https://my.etonx.com/mod/quiz/view.php?id=25591)
+
+#### 📝 Pre-check: Writing effective sentences Quiz
+
+![monologofiltericon=1](Course_471/attachments/monologofiltericon=1)
+
+#### 📝 Pre-check: Writing effective sentences Quiz
+
+[📝 Pre-check: Writing effective sentences Quiz](https://my.etonx.com/mod/quiz/view.php?id=25593)
+
+#### 📝 Check-in: Using expressions to develop your essay Quiz
+
+![monologofiltericon=1](Course_471/attachments/monologofiltericon=1)
+
+#### 📝 Check-in: Using expressions to develop your essay Quiz
+
+[📝 Check-in: Using expressions to develop your essay Quiz](https://my.etonx.com/mod/quiz/view.php?id=25597)
+
+#### 📝 Check-in: Precise language Quiz
+
+![monologofiltericon=1](Course_471/attachments/monologofiltericon=1)
+
+#### 📝 Check-in: Precise language Quiz
+
+[📝 Check-in: Precise language Quiz](https://my.etonx.com/mod/quiz/view.php?id=25599)
+
+</details>
+
+<details>
+<summary>Section 14</summary>
+
+### Activities
+
+#### 📝 Check-in: Appropriate writing styles Quiz
+
+![monologofiltericon=1](Course_471/attachments/monologofiltericon=1)
+
+#### 📝 Check-in: Appropriate writing styles Quiz
+
+[📝 Check-in: Appropriate writing styles Quiz](https://my.etonx.com/mod/quiz/view.php?id=25591)
+
+#### 📝 Pre-check: Writing effective sentences Quiz
+
+![monologofiltericon=1](Course_471/attachments/monologofiltericon=1)
+
+#### 📝 Pre-check: Writing effective sentences Quiz
+
+[📝 Pre-check: Writing effective sentences Quiz](https://my.etonx.com/mod/quiz/view.php?id=25593)
+
+#### 📝 Check-in: Using expressions to develop your essay Quiz
+
+![monologofiltericon=1](Course_471/attachments/monologofiltericon=1)
+
+#### 📝 Check-in: Using expressions to develop your essay Quiz
+
+[📝 Check-in: Using expressions to develop your essay Quiz](https://my.etonx.com/mod/quiz/view.php?id=25597)
+
+#### 📝 Check-in: Precise language Quiz
+
+![monologofiltericon=1](Course_471/attachments/monologofiltericon=1)
+
+#### 📝 Check-in: Precise language Quiz
+
+[📝 Check-in: Precise language Quiz](https://my.etonx.com/mod/quiz/view.php?id=25599)
+
+</details>
+
+<details>
+<summary>Section 6: Editing your Essay</summary>
+
+Select activity What's in Section 6? What's in Section 6? Interactive Task Completion Learners must . Select activity Identifying Sources of Potential Misunderstanding Identifying Sources of Potential Misunderstanding Interactive Task Completion Learners must . Activity complete Select activity 📝 Pre-check: Checking your work 📝 Pre-check: Checking your work Quiz Completion Learners must . Select activity Checking your work Checking your work Interactive Task Completion Learners must . Select activity Proof-reading your work Proof-reading your work Questionnaire Completion Learners must . Select activity 📝 Check-in: Proof-reading your work 📝 Check-in: Proof-reading your work Quiz Completion Learners must . Select activity 🤔 Reflect on your learning 🤔 Reflect on your learning Interactive Task Completion Learners must . Select activity Section 6 Summary Section 6 Summary Questionnaire Completion Learners must . Select activity 📚 End-of-Course Assessment 📚 End-of-Course Assessment Quiz Completion Learners must .
+
+### Activities
+
+#### 📝 Pre-check: Checking your work Quiz
+
+![monologofiltericon=1](Course_471/attachments/monologofiltericon=1)
+
+#### 📝 Pre-check: Checking your work Quiz
+
+[📝 Pre-check: Checking your work Quiz](https://my.etonx.com/mod/quiz/view.php?id=25606)
+
+#### 📝 Check-in: Proof-reading your work Quiz
+
+![monologofiltericon=1](Course_471/attachments/monologofiltericon=1)
+
+#### 📝 Check-in: Proof-reading your work Quiz
+
+[📝 Check-in: Proof-reading your work Quiz](https://my.etonx.com/mod/quiz/view.php?id=25610)
+
+#### 📚 End-of-Course Assessment Quiz
+
+![monologofiltericon=1](Course_471/attachments/monologofiltericon=1)
+
+#### 📚 End-of-Course Assessment Quiz
+
+[📚 End-of-Course Assessment Quiz](https://my.etonx.com/mod/quiz/view.php?id=25612)
+
+</details>
+
+<details>
+<summary>Section 16</summary>
+
+### Activities
+
+#### 📝 Pre-check: Checking your work Quiz
+
+![monologofiltericon=1](Course_471/attachments/monologofiltericon=1)
+
+#### 📝 Pre-check: Checking your work Quiz
+
+[📝 Pre-check: Checking your work Quiz](https://my.etonx.com/mod/quiz/view.php?id=25606)
+
+#### 📝 Check-in: Proof-reading your work Quiz
+
+![monologofiltericon=1](Course_471/attachments/monologofiltericon=1)
+
+#### 📝 Check-in: Proof-reading your work Quiz
+
+[📝 Check-in: Proof-reading your work Quiz](https://my.etonx.com/mod/quiz/view.php?id=25610)
+
+#### 📚 End-of-Course Assessment Quiz
+
+![monologofiltericon=1](Course_471/attachments/monologofiltericon=1)
+
+#### 📚 End-of-Course Assessment Quiz
+
+[📚 End-of-Course Assessment Quiz](https://my.etonx.com/mod/quiz/view.php?id=25612)
+
+</details>
+
+<details>
+<summary>Summing Up</summary>
+
+Select activity Understanding SMART Objectives Understanding SMART Objectives Page Completion Learners must . Select activity Your Personal Development Plan Your Personal Development Plan Questionnaire Completion Learners must . Select activity Course Certificate Course Certificate
+
+No activities available.
+
+</details>
+
+<details>
+<summary>Section 18</summary>
+
+No activities available.
+
+</details>
+
+<details>
+<summary>Journal</summary>
+
+Select activity Journal Journal
+
+No activities available.
+
+</details>
+
+<details>
+<summary>Section 20</summary>
+
+No activities available.
+
+</details>
+
+<details>
+<summary>Resources</summary>
+
+Additional resources which are available to students within their online course. Student Resources Additional resources which are available to students within their online course. Select activity Glossary Glossary Page Select activity Additional Reading Additional Reading Page Select activity Additional Viewing Additional Viewing Page Teacher Resources Select activity Follow Up Activities Follow Up Activities Page Select activity Teacher's Guide Teacher's Guide Page Select activity Workshops Workshops Page
+
+No activities available.
+
+</details>
+
+<details>
+<summary>Section 22</summary>
+
+No activities available.
+
+</details>
+
+<details>
+<summary>Student Resources</summary>
+
+Additional resources which are available to students within their online course. Select activity Glossary Glossary Page Select activity Additional Reading Additional Reading Page Select activity Additional Viewing Additional Viewing Page
+
+No activities available.
+
+</details>
+
+<details>
+<summary>Section 24</summary>
+
+No activities available.
+
+</details>
+
+<details>
+<summary>Teacher Resources</summary>
+
+Select activity Follow Up Activities Follow Up Activities Page Select activity Teacher's Guide Teacher's Guide Page Select activity Workshops Workshops Page
+
+No activities available.
+
+</details>
+
+<details>
+<summary>Section 26</summary>
+
+No activities available.
+
+</details>
 
