@@ -1,2 +1,0 @@
-# Coding Games with Python
-

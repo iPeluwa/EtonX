@@ -1,2 +1,0 @@
-# Personal Statement Writing
-
