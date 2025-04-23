@@ -1,0 +1,1005 @@
+{
+  "courses": [
+    {
+      "id": "63",
+      "title": "Action Research in Schools",
+      "folder_name": "Action_Research_in_Schools",
+      "url": "https://my.etonx.com/course/view.php?id=1522",
+      "subcourses": []
+    },
+    {
+      "id": "60",
+      "title": "AI Fundamentals",
+      "folder_name": "AI_Fundamentals",
+      "url": "https://my.etonx.com/course/view.php?id=514",
+      "subcourses": []
+    },
+    {
+      "id": "46",
+      "title": "Applying for University",
+      "folder_name": "Applying_for_University",
+      "url": "https://my.etonx.com/course/view.php?id=457",
+      "subcourses": []
+    },
+    {
+      "id": "61",
+      "title": "Character Education in the Classroom",
+      "folder_name": "Character_Education_in_the_Classroom",
+      "url": "https://my.etonx.com/course/view.php?id=475",
+      "subcourses": []
+    },
+    {
+      "id": "13",
+      "title": "Coding Games with Python",
+      "folder_name": "Coding_Games_with_Python",
+      "url": "https://my.etonx.com/course/view.php?id=1533",
+      "subcourses": []
+    },
+    {
+      "id": "56",
+      "title": "Creative Problem Solving",
+      "folder_name": "Creative_Problem_Solving",
+      "url": "https://my.etonx.com/course/view.php?id=458",
+      "subcourses": []
+    },
+    {
+      "id": "41",
+      "title": "Critical Thinking",
+      "folder_name": "Critical_Thinking",
+      "url": "https://my.etonx.com/course/view.php?id=459",
+      "subcourses": []
+    },
+    {
+      "id": "57",
+      "title": "CV Writing",
+      "folder_name": "CV_Writing",
+      "url": "https://my.etonx.com/course/view.php?id=460",
+      "subcourses": []
+    },
+    {
+      "id": "44",
+      "title": "Electricity Explained",
+      "folder_name": "Electricity_Explained",
+      "url": "https://my.etonx.com/course/view.php?id=473",
+      "subcourses": []
+    },
+    {
+      "id": "58",
+      "title": "Entrepreneurship",
+      "folder_name": "Entrepreneurship",
+      "url": "https://my.etonx.com/course/view.php?id=461",
+      "subcourses": []
+    },
+    {
+      "id": "62",
+      "title": "Evidence-informed Approaches to Education",
+      "folder_name": "Evidence-informed_Approaches_to_Education",
+      "url": "https://my.etonx.com/course/view.php?id=476",
+      "subcourses": []
+    },
+    {
+      "id": "59",
+      "title": "Job Interview Skills",
+      "folder_name": "Job_Interview_Skills",
+      "url": "https://my.etonx.com/course/view.php?id=462",
+      "subcourses": []
+    },
+    {
+      "id": "52",
+      "title": "Making an Impact",
+      "folder_name": "Making_an_Impact",
+      "url": "https://my.etonx.com/course/view.php?id=463",
+      "subcourses": []
+    },
+    {
+      "id": "47",
+      "title": "Personal Statement Writing",
+      "folder_name": "Personal_Statement_Writing",
+      "url": "https://my.etonx.com/course/view.php?id=464",
+      "subcourses": []
+    },
+    {
+      "id": "51",
+      "title": "Preparing for BMAT",
+      "folder_name": "Preparing_for_BMAT",
+      "url": "https://my.etonx.com/course/view.php?id=474",
+      "subcourses": []
+    },
+    {
+      "id": "48",
+      "title": "Preparing for LNAT",
+      "folder_name": "Preparing_for_LNAT",
+      "url": "https://my.etonx.com/course/view.php?id=465",
+      "subcourses": []
+    },
+    {
+      "id": "49",
+      "title": "Preparing for TSA",
+      "folder_name": "Preparing_for_TSA",
+      "url": "https://my.etonx.com/course/view.php?id=466",
+      "subcourses": []
+    },
+    {
+      "id": "53",
+      "title": "Public Speaking",
+      "folder_name": "Public_Speaking",
+      "url": "https://my.etonx.com/course/view.php?id=467",
+      "subcourses": []
+    },
+    {
+      "id": "42",
+      "title": "Research Skills",
+      "folder_name": "Research_Skills",
+      "url": "https://my.etonx.com/course/view.php?id=468",
+      "subcourses": []
+    },
+    {
+      "id": "55",
+      "title": "Resilience",
+      "folder_name": "Resilience",
+      "url": "https://my.etonx.com/course/view.php?id=472",
+      "subcourses": []
+    },
+    {
+      "id": "45",
+      "title": "Study Skills",
+      "folder_name": "Study_Skills",
+      "url": "https://my.etonx.com/course/view.php?id=492",
+      "subcourses": []
+    },
+    {
+      "id": "50",
+      "title": "University Interview Skills",
+      "folder_name": "University_Interview_Skills",
+      "url": "https://my.etonx.com/course/view.php?id=469",
+      "subcourses": []
+    },
+    {
+      "id": "54",
+      "title": "Verbal Communication",
+      "folder_name": "Verbal_Communication",
+      "url": "https://my.etonx.com/course/view.php?id=470",
+      "subcourses": []
+    },
+    {
+      "id": "43",
+      "title": "Writing Skills",
+      "folder_name": "Writing_Skills",
+      "url": "https://my.etonx.com/course/view.php?id=471",
+      "subcourses": [
+        {
+          "title": "COURSE HOME",
+          "description": "",
+          "iframes": [],
+          "images": [],
+          "videos": []
+        },
+        {
+          "title": "Getting Started",
+          "description": "",
+          "iframes": [],
+          "images": [
+            {
+              "url": "https://my.etonx.com/theme/image.php/wui/scorm/1742904535/monologo?filtericon=1",
+              "filename": "monologofiltericon=1",
+              "local_path": "Writing_Skills/attachments/monologofiltericon=1"
+            },
+            {
+              "url": "https://my.etonx.com/theme/image.php/wui/core/1742904535/i/dot",
+              "filename": "dot",
+              "local_path": "Writing_Skills/attachments/dot"
+            },
+            {
+              "url": "https://my.etonx.com/theme/image.php/wui/scorm/1742904535/monologo?filtericon=1",
+              "filename": "monologofiltericon=1",
+              "local_path": "Writing_Skills/attachments/monologofiltericon=1"
+            },
+            {
+              "url": "https://my.etonx.com/theme/image.php/wui/core/1742904535/i/dot",
+              "filename": "dot",
+              "local_path": "Writing_Skills/attachments/dot"
+            },
+            {
+              "url": "https://my.etonx.com/theme/image.php/wui/diagnose/1742904535/monologo",
+              "filename": "monologo",
+              "local_path": "Writing_Skills/attachments/monologo"
+            }
+          ],
+          "videos": []
+        },
+        {
+          "title": "Section 1: A Good Essay",
+          "description": "",
+          "iframes": [],
+          "images": [
+            {
+              "url": "https://my.etonx.com/theme/image.php/wui/scorm/1742904535/monologo?filtericon=1",
+              "filename": "monologofiltericon=1",
+              "local_path": "Writing_Skills/attachments/monologofiltericon=1"
+            },
+            {
+              "url": "https://my.etonx.com/theme/image.php/wui/core/1742904535/i/dot",
+              "filename": "dot",
+              "local_path": "Writing_Skills/attachments/dot"
+            },
+            {
+              "url": "https://my.etonx.com/theme/image.php/wui/scorm/1742904535/monologo?filtericon=1",
+              "filename": "monologofiltericon=1",
+              "local_path": "Writing_Skills/attachments/monologofiltericon=1"
+            },
+            {
+              "url": "https://my.etonx.com/theme/image.php/wui/core/1742904535/i/dot",
+              "filename": "dot",
+              "local_path": "Writing_Skills/attachments/dot"
+            },
+            {
+              "url": "https://my.etonx.com/theme/image.php/wui/h5pactivity/1742904535/monologo?filtericon=1",
+              "filename": "monologofiltericon=1",
+              "local_path": "Writing_Skills/attachments/monologofiltericon=1"
+            },
+            {
+              "url": "https://my.etonx.com/theme/image.php/wui/core/1742904535/i/dot",
+              "filename": "dot",
+              "local_path": "Writing_Skills/attachments/dot"
+            },
+            {
+              "url": "https://my.etonx.com/theme/image.php/wui/quiz/1742904535/monologo?filtericon=1",
+              "filename": "monologofiltericon=1",
+              "local_path": "Writing_Skills/attachments/monologofiltericon=1"
+            },
+            {
+              "url": "https://my.etonx.com/theme/image.php/wui/core/1742904535/i/dot",
+              "filename": "dot",
+              "local_path": "Writing_Skills/attachments/dot"
+            },
+            {
+              "url": "https://my.etonx.com/theme/image.php/wui/quiz/1742904535/monologo?filtericon=1",
+              "filename": "monologofiltericon=1",
+              "local_path": "Writing_Skills/attachments/monologofiltericon=1"
+            },
+            {
+              "url": "https://my.etonx.com/theme/image.php/wui/core/1742904535/i/dot",
+              "filename": "dot",
+              "local_path": "Writing_Skills/attachments/dot"
+            },
+            {
+              "url": "https://my.etonx.com/theme/image.php/wui/scorm/1742904535/monologo?filtericon=1",
+              "filename": "monologofiltericon=1",
+              "local_path": "Writing_Skills/attachments/monologofiltericon=1"
+            },
+            {
+              "url": "https://my.etonx.com/theme/image.php/wui/core/1742904535/i/dot",
+              "filename": "dot",
+              "local_path": "Writing_Skills/attachments/dot"
+            },
+            {
+              "url": "https://my.etonx.com/theme/image.php/wui/scorm/1742904535/monologo?filtericon=1",
+              "filename": "monologofiltericon=1",
+              "local_path": "Writing_Skills/attachments/monologofiltericon=1"
+            },
+            {
+              "url": "https://my.etonx.com/theme/image.php/wui/core/1742904535/i/dot",
+              "filename": "dot",
+              "local_path": "Writing_Skills/attachments/dot"
+            },
+            {
+              "url": "https://my.etonx.com/theme/image.php/wui/scorm/1742904535/monologo?filtericon=1",
+              "filename": "monologofiltericon=1",
+              "local_path": "Writing_Skills/attachments/monologofiltericon=1"
+            },
+            {
+              "url": "https://my.etonx.com/theme/image.php/wui/core/1742904535/i/dot",
+              "filename": "dot",
+              "local_path": "Writing_Skills/attachments/dot"
+            },
+            {
+              "url": "https://my.etonx.com/theme/image.php/wui/page/1742904535/monologo?filtericon=1",
+              "filename": "monologofiltericon=1",
+              "local_path": "Writing_Skills/attachments/monologofiltericon=1"
+            },
+            {
+              "url": "https://my.etonx.com/theme/image.php/wui/core/1742904535/i/dot",
+              "filename": "dot",
+              "local_path": "Writing_Skills/attachments/dot"
+            },
+            {
+              "url": "https://my.etonx.com/theme/image.php/wui/scorm/1742904535/monologo?filtericon=1",
+              "filename": "monologofiltericon=1",
+              "local_path": "Writing_Skills/attachments/monologofiltericon=1"
+            },
+            {
+              "url": "https://my.etonx.com/theme/image.php/wui/core/1742904535/i/dot",
+              "filename": "dot",
+              "local_path": "Writing_Skills/attachments/dot"
+            },
+            {
+              "url": "https://my.etonx.com/theme/image.php/wui/questionnaire/1742904535/monologo?filtericon=1",
+              "filename": "monologofiltericon=1",
+              "local_path": "Writing_Skills/attachments/monologofiltericon=1"
+            },
+            {
+              "url": "https://my.etonx.com/theme/image.php/wui/core/1742904535/i/dot",
+              "filename": "dot",
+              "local_path": "Writing_Skills/attachments/dot"
+            }
+          ],
+          "videos": []
+        },
+        {
+          "title": "Section 2: Researching the Topic",
+          "description": "",
+          "iframes": [],
+          "images": [
+            {
+              "url": "https://my.etonx.com/theme/image.php/wui/scorm/1742904535/monologo?filtericon=1",
+              "filename": "monologofiltericon=1",
+              "local_path": "Writing_Skills/attachments/monologofiltericon=1"
+            },
+            {
+              "url": "https://my.etonx.com/theme/image.php/wui/core/1742904535/i/dot",
+              "filename": "dot",
+              "local_path": "Writing_Skills/attachments/dot"
+            },
+            {
+              "url": "https://my.etonx.com/theme/image.php/wui/h5pactivity/1742904535/monologo?filtericon=1",
+              "filename": "monologofiltericon=1",
+              "local_path": "Writing_Skills/attachments/monologofiltericon=1"
+            },
+            {
+              "url": "https://my.etonx.com/theme/image.php/wui/core/1742904535/i/dot",
+              "filename": "dot",
+              "local_path": "Writing_Skills/attachments/dot"
+            },
+            {
+              "url": "https://my.etonx.com/theme/image.php/wui/quiz/1742904535/monologo?filtericon=1",
+              "filename": "monologofiltericon=1",
+              "local_path": "Writing_Skills/attachments/monologofiltericon=1"
+            },
+            {
+              "url": "https://my.etonx.com/theme/image.php/wui/core/1742904535/i/dot",
+              "filename": "dot",
+              "local_path": "Writing_Skills/attachments/dot"
+            },
+            {
+              "url": "https://my.etonx.com/theme/image.php/wui/scorm/1742904535/monologo?filtericon=1",
+              "filename": "monologofiltericon=1",
+              "local_path": "Writing_Skills/attachments/monologofiltericon=1"
+            },
+            {
+              "url": "https://my.etonx.com/theme/image.php/wui/core/1742904535/i/dot",
+              "filename": "dot",
+              "local_path": "Writing_Skills/attachments/dot"
+            },
+            {
+              "url": "https://my.etonx.com/theme/image.php/wui/questionnaire/1742904535/monologo?filtericon=1",
+              "filename": "monologofiltericon=1",
+              "local_path": "Writing_Skills/attachments/monologofiltericon=1"
+            },
+            {
+              "url": "https://my.etonx.com/theme/image.php/wui/core/1742904535/i/dot",
+              "filename": "dot",
+              "local_path": "Writing_Skills/attachments/dot"
+            },
+            {
+              "url": "https://my.etonx.com/theme/image.php/wui/questionnaire/1742904535/monologo?filtericon=1",
+              "filename": "monologofiltericon=1",
+              "local_path": "Writing_Skills/attachments/monologofiltericon=1"
+            },
+            {
+              "url": "https://my.etonx.com/theme/image.php/wui/core/1742904535/i/dot",
+              "filename": "dot",
+              "local_path": "Writing_Skills/attachments/dot"
+            },
+            {
+              "url": "https://my.etonx.com/theme/image.php/wui/scorm/1742904535/monologo?filtericon=1",
+              "filename": "monologofiltericon=1",
+              "local_path": "Writing_Skills/attachments/monologofiltericon=1"
+            },
+            {
+              "url": "https://my.etonx.com/theme/image.php/wui/core/1742904535/i/dot",
+              "filename": "dot",
+              "local_path": "Writing_Skills/attachments/dot"
+            },
+            {
+              "url": "https://my.etonx.com/theme/image.php/wui/quiz/1742904535/monologo?filtericon=1",
+              "filename": "monologofiltericon=1",
+              "local_path": "Writing_Skills/attachments/monologofiltericon=1"
+            },
+            {
+              "url": "https://my.etonx.com/theme/image.php/wui/core/1742904535/i/dot",
+              "filename": "dot",
+              "local_path": "Writing_Skills/attachments/dot"
+            },
+            {
+              "url": "https://my.etonx.com/theme/image.php/wui/scorm/1742904535/monologo?filtericon=1",
+              "filename": "monologofiltericon=1",
+              "local_path": "Writing_Skills/attachments/monologofiltericon=1"
+            },
+            {
+              "url": "https://my.etonx.com/theme/image.php/wui/core/1742904535/i/dot",
+              "filename": "dot",
+              "local_path": "Writing_Skills/attachments/dot"
+            },
+            {
+              "url": "https://my.etonx.com/theme/image.php/wui/quiz/1742904535/monologo?filtericon=1",
+              "filename": "monologofiltericon=1",
+              "local_path": "Writing_Skills/attachments/monologofiltericon=1"
+            },
+            {
+              "url": "https://my.etonx.com/theme/image.php/wui/core/1742904535/i/dot",
+              "filename": "dot",
+              "local_path": "Writing_Skills/attachments/dot"
+            },
+            {
+              "url": "https://my.etonx.com/theme/image.php/wui/questionnaire/1742904535/monologo?filtericon=1",
+              "filename": "monologofiltericon=1",
+              "local_path": "Writing_Skills/attachments/monologofiltericon=1"
+            },
+            {
+              "url": "https://my.etonx.com/theme/image.php/wui/core/1742904535/i/dot",
+              "filename": "dot",
+              "local_path": "Writing_Skills/attachments/dot"
+            },
+            {
+              "url": "https://my.etonx.com/theme/image.php/wui/page/1742904535/monologo?filtericon=1",
+              "filename": "monologofiltericon=1",
+              "local_path": "Writing_Skills/attachments/monologofiltericon=1"
+            },
+            {
+              "url": "https://my.etonx.com/theme/image.php/wui/core/1742904535/i/dot",
+              "filename": "dot",
+              "local_path": "Writing_Skills/attachments/dot"
+            },
+            {
+              "url": "https://my.etonx.com/theme/image.php/wui/scorm/1742904535/monologo?filtericon=1",
+              "filename": "monologofiltericon=1",
+              "local_path": "Writing_Skills/attachments/monologofiltericon=1"
+            },
+            {
+              "url": "https://my.etonx.com/theme/image.php/wui/core/1742904535/i/dot",
+              "filename": "dot",
+              "local_path": "Writing_Skills/attachments/dot"
+            },
+            {
+              "url": "https://my.etonx.com/theme/image.php/wui/questionnaire/1742904535/monologo?filtericon=1",
+              "filename": "monologofiltericon=1",
+              "local_path": "Writing_Skills/attachments/monologofiltericon=1"
+            },
+            {
+              "url": "https://my.etonx.com/theme/image.php/wui/core/1742904535/i/dot",
+              "filename": "dot",
+              "local_path": "Writing_Skills/attachments/dot"
+            }
+          ],
+          "videos": []
+        },
+        {
+          "title": "Section 3: Planning your Essay",
+          "description": "",
+          "iframes": [],
+          "images": [
+            {
+              "url": "https://my.etonx.com/theme/image.php/wui/scorm/1742904535/monologo?filtericon=1",
+              "filename": "monologofiltericon=1",
+              "local_path": "Writing_Skills/attachments/monologofiltericon=1"
+            },
+            {
+              "url": "https://my.etonx.com/theme/image.php/wui/core/1742904535/i/dot",
+              "filename": "dot",
+              "local_path": "Writing_Skills/attachments/dot"
+            },
+            {
+              "url": "https://my.etonx.com/theme/image.php/wui/scorm/1742904535/monologo?filtericon=1",
+              "filename": "monologofiltericon=1",
+              "local_path": "Writing_Skills/attachments/monologofiltericon=1"
+            },
+            {
+              "url": "https://my.etonx.com/theme/image.php/wui/core/1742904535/i/dot",
+              "filename": "dot",
+              "local_path": "Writing_Skills/attachments/dot"
+            },
+            {
+              "url": "https://my.etonx.com/theme/image.php/wui/h5pactivity/1742904535/monologo?filtericon=1",
+              "filename": "monologofiltericon=1",
+              "local_path": "Writing_Skills/attachments/monologofiltericon=1"
+            },
+            {
+              "url": "https://my.etonx.com/theme/image.php/wui/core/1742904535/i/dot",
+              "filename": "dot",
+              "local_path": "Writing_Skills/attachments/dot"
+            },
+            {
+              "url": "https://my.etonx.com/theme/image.php/wui/page/1742904535/monologo?filtericon=1",
+              "filename": "monologofiltericon=1",
+              "local_path": "Writing_Skills/attachments/monologofiltericon=1"
+            },
+            {
+              "url": "https://my.etonx.com/theme/image.php/wui/core/1742904535/i/dot",
+              "filename": "dot",
+              "local_path": "Writing_Skills/attachments/dot"
+            },
+            {
+              "url": "https://my.etonx.com/theme/image.php/wui/scorm/1742904535/monologo?filtericon=1",
+              "filename": "monologofiltericon=1",
+              "local_path": "Writing_Skills/attachments/monologofiltericon=1"
+            },
+            {
+              "url": "https://my.etonx.com/theme/image.php/wui/core/1742904535/i/dot",
+              "filename": "dot",
+              "local_path": "Writing_Skills/attachments/dot"
+            },
+            {
+              "url": "https://my.etonx.com/theme/image.php/wui/quiz/1742904535/monologo?filtericon=1",
+              "filename": "monologofiltericon=1",
+              "local_path": "Writing_Skills/attachments/monologofiltericon=1"
+            },
+            {
+              "url": "https://my.etonx.com/theme/image.php/wui/core/1742904535/i/dot",
+              "filename": "dot",
+              "local_path": "Writing_Skills/attachments/dot"
+            },
+            {
+              "url": "https://my.etonx.com/theme/image.php/wui/scorm/1742904535/monologo?filtericon=1",
+              "filename": "monologofiltericon=1",
+              "local_path": "Writing_Skills/attachments/monologofiltericon=1"
+            },
+            {
+              "url": "https://my.etonx.com/theme/image.php/wui/core/1742904535/i/dot",
+              "filename": "dot",
+              "local_path": "Writing_Skills/attachments/dot"
+            },
+            {
+              "url": "https://my.etonx.com/theme/image.php/wui/scorm/1742904535/monologo?filtericon=1",
+              "filename": "monologofiltericon=1",
+              "local_path": "Writing_Skills/attachments/monologofiltericon=1"
+            },
+            {
+              "url": "https://my.etonx.com/theme/image.php/wui/core/1742904535/i/dot",
+              "filename": "dot",
+              "local_path": "Writing_Skills/attachments/dot"
+            },
+            {
+              "url": "https://my.etonx.com/theme/image.php/wui/questionnaire/1742904535/monologo?filtericon=1",
+              "filename": "monologofiltericon=1",
+              "local_path": "Writing_Skills/attachments/monologofiltericon=1"
+            },
+            {
+              "url": "https://my.etonx.com/theme/image.php/wui/core/1742904535/i/dot",
+              "filename": "dot",
+              "local_path": "Writing_Skills/attachments/dot"
+            }
+          ],
+          "videos": []
+        },
+        {
+          "title": "Section 4: Building your Argument",
+          "description": "",
+          "iframes": [],
+          "images": [
+            {
+              "url": "https://my.etonx.com/theme/image.php/wui/scorm/1742904535/monologo?filtericon=1",
+              "filename": "monologofiltericon=1",
+              "local_path": "Writing_Skills/attachments/monologofiltericon=1"
+            },
+            {
+              "url": "https://my.etonx.com/theme/image.php/wui/core/1742904535/i/dot",
+              "filename": "dot",
+              "local_path": "Writing_Skills/attachments/dot"
+            },
+            {
+              "url": "https://my.etonx.com/theme/image.php/wui/scorm/1742904535/monologo?filtericon=1",
+              "filename": "monologofiltericon=1",
+              "local_path": "Writing_Skills/attachments/monologofiltericon=1"
+            },
+            {
+              "url": "https://my.etonx.com/theme/image.php/wui/core/1742904535/i/dot",
+              "filename": "dot",
+              "local_path": "Writing_Skills/attachments/dot"
+            },
+            {
+              "url": "https://my.etonx.com/theme/image.php/wui/core/1742904535/i/dot",
+              "filename": "dot",
+              "local_path": "Writing_Skills/attachments/dot"
+            },
+            {
+              "url": "https://my.etonx.com/theme/image.php/wui/scorm/1742904535/monologo?filtericon=1",
+              "filename": "monologofiltericon=1",
+              "local_path": "Writing_Skills/attachments/monologofiltericon=1"
+            },
+            {
+              "url": "https://my.etonx.com/theme/image.php/wui/core/1742904535/i/dot",
+              "filename": "dot",
+              "local_path": "Writing_Skills/attachments/dot"
+            },
+            {
+              "url": "https://my.etonx.com/theme/image.php/wui/core/1742904535/i/dot",
+              "filename": "dot",
+              "local_path": "Writing_Skills/attachments/dot"
+            },
+            {
+              "url": "https://my.etonx.com/theme/image.php/wui/h5pactivity/1742904535/monologo?filtericon=1",
+              "filename": "monologofiltericon=1",
+              "local_path": "Writing_Skills/attachments/monologofiltericon=1"
+            },
+            {
+              "url": "https://my.etonx.com/theme/image.php/wui/core/1742904535/i/dot",
+              "filename": "dot",
+              "local_path": "Writing_Skills/attachments/dot"
+            },
+            {
+              "url": "https://my.etonx.com/theme/image.php/wui/scorm/1742904535/monologo?filtericon=1",
+              "filename": "monologofiltericon=1",
+              "local_path": "Writing_Skills/attachments/monologofiltericon=1"
+            },
+            {
+              "url": "https://my.etonx.com/theme/image.php/wui/core/1742904535/i/dot",
+              "filename": "dot",
+              "local_path": "Writing_Skills/attachments/dot"
+            },
+            {
+              "url": "https://my.etonx.com/theme/image.php/wui/core/1742904535/i/dot",
+              "filename": "dot",
+              "local_path": "Writing_Skills/attachments/dot"
+            },
+            {
+              "url": "https://my.etonx.com/theme/image.php/wui/scorm/1742904535/monologo?filtericon=1",
+              "filename": "monologofiltericon=1",
+              "local_path": "Writing_Skills/attachments/monologofiltericon=1"
+            },
+            {
+              "url": "https://my.etonx.com/theme/image.php/wui/core/1742904535/i/dot",
+              "filename": "dot",
+              "local_path": "Writing_Skills/attachments/dot"
+            },
+            {
+              "url": "https://my.etonx.com/theme/image.php/wui/scorm/1742904535/monologo?filtericon=1",
+              "filename": "monologofiltericon=1",
+              "local_path": "Writing_Skills/attachments/monologofiltericon=1"
+            },
+            {
+              "url": "https://my.etonx.com/theme/image.php/wui/core/1742904535/i/dot",
+              "filename": "dot",
+              "local_path": "Writing_Skills/attachments/dot"
+            },
+            {
+              "url": "https://my.etonx.com/theme/image.php/wui/scorm/1742904535/monologo?filtericon=1",
+              "filename": "monologofiltericon=1",
+              "local_path": "Writing_Skills/attachments/monologofiltericon=1"
+            },
+            {
+              "url": "https://my.etonx.com/theme/image.php/wui/core/1742904535/i/dot",
+              "filename": "dot",
+              "local_path": "Writing_Skills/attachments/dot"
+            },
+            {
+              "url": "https://my.etonx.com/theme/image.php/wui/questionnaire/1742904535/monologo?filtericon=1",
+              "filename": "monologofiltericon=1",
+              "local_path": "Writing_Skills/attachments/monologofiltericon=1"
+            },
+            {
+              "url": "https://my.etonx.com/theme/image.php/wui/core/1742904535/i/dot",
+              "filename": "dot",
+              "local_path": "Writing_Skills/attachments/dot"
+            }
+          ],
+          "videos": []
+        },
+        {
+          "title": "Section 5: Developing your Writing Style",
+          "description": "",
+          "iframes": [],
+          "images": [
+            {
+              "url": "https://my.etonx.com/theme/image.php/wui/scorm/1742904535/monologo?filtericon=1",
+              "filename": "monologofiltericon=1",
+              "local_path": "Writing_Skills/attachments/monologofiltericon=1"
+            },
+            {
+              "url": "https://my.etonx.com/theme/image.php/wui/core/1742904535/i/dot",
+              "filename": "dot",
+              "local_path": "Writing_Skills/attachments/dot"
+            },
+            {
+              "url": "https://my.etonx.com/theme/image.php/wui/scorm/1742904535/monologo?filtericon=1",
+              "filename": "monologofiltericon=1",
+              "local_path": "Writing_Skills/attachments/monologofiltericon=1"
+            },
+            {
+              "url": "https://my.etonx.com/theme/image.php/wui/core/1742904535/i/dot",
+              "filename": "dot",
+              "local_path": "Writing_Skills/attachments/dot"
+            },
+            {
+              "url": "https://my.etonx.com/theme/image.php/wui/quiz/1742904535/monologo?filtericon=1",
+              "filename": "monologofiltericon=1",
+              "local_path": "Writing_Skills/attachments/monologofiltericon=1"
+            },
+            {
+              "url": "https://my.etonx.com/theme/image.php/wui/core/1742904535/i/dot",
+              "filename": "dot",
+              "local_path": "Writing_Skills/attachments/dot"
+            },
+            {
+              "url": "https://my.etonx.com/theme/image.php/wui/scorm/1742904535/monologo?filtericon=1",
+              "filename": "monologofiltericon=1",
+              "local_path": "Writing_Skills/attachments/monologofiltericon=1"
+            },
+            {
+              "url": "https://my.etonx.com/theme/image.php/wui/core/1742904535/i/dot",
+              "filename": "dot",
+              "local_path": "Writing_Skills/attachments/dot"
+            },
+            {
+              "url": "https://my.etonx.com/theme/image.php/wui/quiz/1742904535/monologo?filtericon=1",
+              "filename": "monologofiltericon=1",
+              "local_path": "Writing_Skills/attachments/monologofiltericon=1"
+            },
+            {
+              "url": "https://my.etonx.com/theme/image.php/wui/core/1742904535/i/dot",
+              "filename": "dot",
+              "local_path": "Writing_Skills/attachments/dot"
+            },
+            {
+              "url": "https://my.etonx.com/theme/image.php/wui/scorm/1742904535/monologo?filtericon=1",
+              "filename": "monologofiltericon=1",
+              "local_path": "Writing_Skills/attachments/monologofiltericon=1"
+            },
+            {
+              "url": "https://my.etonx.com/theme/image.php/wui/core/1742904535/i/dot",
+              "filename": "dot",
+              "local_path": "Writing_Skills/attachments/dot"
+            },
+            {
+              "url": "https://my.etonx.com/theme/image.php/wui/h5pactivity/1742904535/monologo?filtericon=1",
+              "filename": "monologofiltericon=1",
+              "local_path": "Writing_Skills/attachments/monologofiltericon=1"
+            },
+            {
+              "url": "https://my.etonx.com/theme/image.php/wui/core/1742904535/i/dot",
+              "filename": "dot",
+              "local_path": "Writing_Skills/attachments/dot"
+            },
+            {
+              "url": "https://my.etonx.com/theme/image.php/wui/quiz/1742904535/monologo?filtericon=1",
+              "filename": "monologofiltericon=1",
+              "local_path": "Writing_Skills/attachments/monologofiltericon=1"
+            },
+            {
+              "url": "https://my.etonx.com/theme/image.php/wui/core/1742904535/i/dot",
+              "filename": "dot",
+              "local_path": "Writing_Skills/attachments/dot"
+            },
+            {
+              "url": "https://my.etonx.com/theme/image.php/wui/scorm/1742904535/monologo?filtericon=1",
+              "filename": "monologofiltericon=1",
+              "local_path": "Writing_Skills/attachments/monologofiltericon=1"
+            },
+            {
+              "url": "https://my.etonx.com/theme/image.php/wui/core/1742904535/i/dot",
+              "filename": "dot",
+              "local_path": "Writing_Skills/attachments/dot"
+            },
+            {
+              "url": "https://my.etonx.com/theme/image.php/wui/quiz/1742904535/monologo?filtericon=1",
+              "filename": "monologofiltericon=1",
+              "local_path": "Writing_Skills/attachments/monologofiltericon=1"
+            },
+            {
+              "url": "https://my.etonx.com/theme/image.php/wui/core/1742904535/i/dot",
+              "filename": "dot",
+              "local_path": "Writing_Skills/attachments/dot"
+            },
+            {
+              "url": "https://my.etonx.com/theme/image.php/wui/scorm/1742904535/monologo?filtericon=1",
+              "filename": "monologofiltericon=1",
+              "local_path": "Writing_Skills/attachments/monologofiltericon=1"
+            },
+            {
+              "url": "https://my.etonx.com/theme/image.php/wui/core/1742904535/i/dot",
+              "filename": "dot",
+              "local_path": "Writing_Skills/attachments/dot"
+            },
+            {
+              "url": "https://my.etonx.com/theme/image.php/wui/questionnaire/1742904535/monologo?filtericon=1",
+              "filename": "monologofiltericon=1",
+              "local_path": "Writing_Skills/attachments/monologofiltericon=1"
+            },
+            {
+              "url": "https://my.etonx.com/theme/image.php/wui/core/1742904535/i/dot",
+              "filename": "dot",
+              "local_path": "Writing_Skills/attachments/dot"
+            }
+          ],
+          "videos": []
+        },
+        {
+          "title": "Section 6: Editing your Essay",
+          "description": "",
+          "iframes": [],
+          "images": [
+            {
+              "url": "https://my.etonx.com/theme/image.php/wui/scorm/1742904535/monologo?filtericon=1",
+              "filename": "monologofiltericon=1",
+              "local_path": "Writing_Skills/attachments/monologofiltericon=1"
+            },
+            {
+              "url": "https://my.etonx.com/theme/image.php/wui/core/1742904535/i/dot",
+              "filename": "dot",
+              "local_path": "Writing_Skills/attachments/dot"
+            },
+            {
+              "url": "https://my.etonx.com/theme/image.php/wui/scorm/1742904535/monologo?filtericon=1",
+              "filename": "monologofiltericon=1",
+              "local_path": "Writing_Skills/attachments/monologofiltericon=1"
+            },
+            {
+              "url": "https://my.etonx.com/theme/image.php/wui/core/1742904535/i/dot",
+              "filename": "dot",
+              "local_path": "Writing_Skills/attachments/dot"
+            },
+            {
+              "url": "https://my.etonx.com/theme/image.php/wui/core/1742904535/i/dot",
+              "filename": "dot",
+              "local_path": "Writing_Skills/attachments/dot"
+            },
+            {
+              "url": "https://my.etonx.com/theme/image.php/wui/quiz/1742904535/monologo?filtericon=1",
+              "filename": "monologofiltericon=1",
+              "local_path": "Writing_Skills/attachments/monologofiltericon=1"
+            },
+            {
+              "url": "https://my.etonx.com/theme/image.php/wui/core/1742904535/i/dot",
+              "filename": "dot",
+              "local_path": "Writing_Skills/attachments/dot"
+            },
+            {
+              "url": "https://my.etonx.com/theme/image.php/wui/scorm/1742904535/monologo?filtericon=1",
+              "filename": "monologofiltericon=1",
+              "local_path": "Writing_Skills/attachments/monologofiltericon=1"
+            },
+            {
+              "url": "https://my.etonx.com/theme/image.php/wui/core/1742904535/i/dot",
+              "filename": "dot",
+              "local_path": "Writing_Skills/attachments/dot"
+            },
+            {
+              "url": "https://my.etonx.com/theme/image.php/wui/questionnaire/1742904535/monologo?filtericon=1",
+              "filename": "monologofiltericon=1",
+              "local_path": "Writing_Skills/attachments/monologofiltericon=1"
+            },
+            {
+              "url": "https://my.etonx.com/theme/image.php/wui/core/1742904535/i/dot",
+              "filename": "dot",
+              "local_path": "Writing_Skills/attachments/dot"
+            },
+            {
+              "url": "https://my.etonx.com/theme/image.php/wui/quiz/1742904535/monologo?filtericon=1",
+              "filename": "monologofiltericon=1",
+              "local_path": "Writing_Skills/attachments/monologofiltericon=1"
+            },
+            {
+              "url": "https://my.etonx.com/theme/image.php/wui/core/1742904535/i/dot",
+              "filename": "dot",
+              "local_path": "Writing_Skills/attachments/dot"
+            },
+            {
+              "url": "https://my.etonx.com/theme/image.php/wui/scorm/1742904535/monologo?filtericon=1",
+              "filename": "monologofiltericon=1",
+              "local_path": "Writing_Skills/attachments/monologofiltericon=1"
+            },
+            {
+              "url": "https://my.etonx.com/theme/image.php/wui/core/1742904535/i/dot",
+              "filename": "dot",
+              "local_path": "Writing_Skills/attachments/dot"
+            },
+            {
+              "url": "https://my.etonx.com/theme/image.php/wui/questionnaire/1742904535/monologo?filtericon=1",
+              "filename": "monologofiltericon=1",
+              "local_path": "Writing_Skills/attachments/monologofiltericon=1"
+            },
+            {
+              "url": "https://my.etonx.com/theme/image.php/wui/core/1742904535/i/dot",
+              "filename": "dot",
+              "local_path": "Writing_Skills/attachments/dot"
+            },
+            {
+              "url": "https://my.etonx.com/theme/image.php/wui/quiz/1742904535/monologo?filtericon=1",
+              "filename": "monologofiltericon=1",
+              "local_path": "Writing_Skills/attachments/monologofiltericon=1"
+            },
+            {
+              "url": "https://my.etonx.com/theme/image.php/wui/core/1742904535/i/dot",
+              "filename": "dot",
+              "local_path": "Writing_Skills/attachments/dot"
+            }
+          ],
+          "videos": []
+        },
+        {
+          "title": "Summing Up",
+          "description": "",
+          "iframes": [],
+          "images": [
+            {
+              "url": "https://my.etonx.com/theme/image.php/wui/page/1742904535/monologo?filtericon=1",
+              "filename": "monologofiltericon=1",
+              "local_path": "Writing_Skills/attachments/monologofiltericon=1"
+            },
+            {
+              "url": "https://my.etonx.com/theme/image.php/wui/core/1742904535/i/dot",
+              "filename": "dot",
+              "local_path": "Writing_Skills/attachments/dot"
+            },
+            {
+              "url": "https://my.etonx.com/theme/image.php/wui/questionnaire/1742904535/monologo?filtericon=1",
+              "filename": "monologofiltericon=1",
+              "local_path": "Writing_Skills/attachments/monologofiltericon=1"
+            },
+            {
+              "url": "https://my.etonx.com/theme/image.php/wui/core/1742904535/i/dot",
+              "filename": "dot",
+              "local_path": "Writing_Skills/attachments/dot"
+            },
+            {
+              "url": "https://my.etonx.com/theme/image.php/wui/coursecertificate/1742904535/monologo?filtericon=1",
+              "filename": "monologofiltericon=1",
+              "local_path": "Writing_Skills/attachments/monologofiltericon=1"
+            }
+          ],
+          "videos": []
+        },
+        {
+          "title": "Journal",
+          "description": "",
+          "iframes": [],
+          "images": [
+            {
+              "url": "https://my.etonx.com/theme/image.php/wui/diary/1742904535/monologo?filtericon=1",
+              "filename": "monologofiltericon=1",
+              "local_path": "Writing_Skills/attachments/monologofiltericon=1"
+            }
+          ],
+          "videos": []
+        },
+        {
+          "title": "Resources",
+          "description": "Additional resources which are available to students within their online course.",
+          "iframes": [],
+          "images": [
+            {
+              "url": "https://my.etonx.com/theme/image.php/wui/page/1742904535/monologo?filtericon=1",
+              "filename": "monologofiltericon=1",
+              "local_path": "Writing_Skills/attachments/monologofiltericon=1"
+            },
+            {
+              "url": "https://my.etonx.com/theme/image.php/wui/page/1742904535/monologo?filtericon=1",
+              "filename": "monologofiltericon=1",
+              "local_path": "Writing_Skills/attachments/monologofiltericon=1"
+            },
+            {
+              "url": "https://my.etonx.com/theme/image.php/wui/page/1742904535/monologo?filtericon=1",
+              "filename": "monologofiltericon=1",
+              "local_path": "Writing_Skills/attachments/monologofiltericon=1"
+            },
+            {
+              "url": "https://my.etonx.com/theme/image.php/wui/page/1742904535/monologo?filtericon=1",
+              "filename": "monologofiltericon=1",
+              "local_path": "Writing_Skills/attachments/monologofiltericon=1"
+            },
+            {
+              "url": "https://my.etonx.com/theme/image.php/wui/page/1742904535/monologo?filtericon=1",
+              "filename": "monologofiltericon=1",
+              "local_path": "Writing_Skills/attachments/monologofiltericon=1"
+            },
+            {
+              "url": "https://my.etonx.com/theme/image.php/wui/page/1742904535/monologo?filtericon=1",
+              "filename": "monologofiltericon=1",
+              "local_path": "Writing_Skills/attachments/monologofiltericon=1"
+            }
+          ],
+          "videos": []
+        }
+      ]
+    }
+  ]
+}
