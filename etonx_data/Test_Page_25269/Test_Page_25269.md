@@ -1,424 +1,244 @@
-# Writing Skills More...
-
-## Course Overview
+# Writing Skills
 
 Participate in the course to gain experience points and level up!
 
 **Progress**: Not available
 
-## Sections
+## COURSE HOME
 
-<details>
-<summary>COURSE HOME</summary>
+No activities found.
 
-No activities available.
-
-</details>
-
-<details>
-<summary>Section 2</summary>
-
-No activities available.
-
-</details>
-
-<details>
-<summary>Getting Started</summary>
-
-Select activity 😄 Welcome 😄 Welcome Interactive Task Completion Learners must . Select activity 📚 All About Your Course 📚 All About Your Course Interactive Task Completion Learners must . Select activity ✅ Check Your Writing Skills ✅ Check Your Writing Skills Accipio Diagnose Completion You have to add at least one completion condition.
-
-No activities available.
-
-</details>
-
-<details>
-<summary>Section 4</summary>
-
-No activities available.
-
-</details>
-
-<details>
-<summary>Section 1: A Good Essay</summary>
-
-Select activity What's in Section 1? What's in Section 1? Interactive Task Completion Learners must . Select activity What makes you a good academic writer? What makes you a good academic writer? Interactive Task Completion Learners must . Select activity 📝 Check-in: What makes a good academic writer? 📝 Check-in: What makes a good academic writer? H5P Completion Learners must . Select activity Understanding Essay Types Understanding Essay Types Quiz Completion Learners must . Select activity 📝 Check-in: Understanding Essay Types 📝 Check-in: Understanding Essay Types Quiz Completion Learners must . Select activity Obstacles to Writing Obstacles to Writing Interactive Task Completion Learners must . Select activity 👤 Case Study: Obstacles to Writing 👤 Case Study: Obstacles to Writing Interactive Task Completion Learners must . Select activity Finding your voice Finding your voice Interactive Task Completion Learners must . Select activity Developing your voice Developing your voice Page Completion Learners must . Select activity 🤔 Reflect on your learning 🤔 Reflect on your learning Interactive Task Completion Learners must . Select activity Section 1 Summary Section 1 Summary Questionnaire Completion Learners must .
+## Getting Started
 
 ### Activities
 
-#### Understanding Essay Types Quiz
+#### 😄 Welcome Interactive Task (scorm)
 
-![monologofiltericon=1](Course_471/attachments/monologofiltericon=1)
+Source: [https://my.etonx.com/mod/scorm/view.php?id=31832](https://my.etonx.com/mod/scorm/view.php?id=31832)
 
-#### Understanding Essay Types Quiz
+#### 📚 All About Your Course Interactive Task (scorm)
 
-[Understanding Essay Types Quiz](https://my.etonx.com/mod/quiz/view.php?id=25535)
+Source: [https://my.etonx.com/mod/scorm/view.php?id=25528](https://my.etonx.com/mod/scorm/view.php?id=25528)
 
-#### 📝 Check-in: Understanding Essay Types Quiz
-
-![monologofiltericon=1](Course_471/attachments/monologofiltericon=1)
-
-#### 📝 Check-in: Understanding Essay Types Quiz
-
-[📝 Check-in: Understanding Essay Types Quiz](https://my.etonx.com/mod/quiz/view.php?id=25536)
-
-</details>
-
-<details>
-<summary>Section 6</summary>
+## Section 1: A Good Essay
 
 ### Activities
 
-#### Understanding Essay Types Quiz
+#### What's in Section 1? Interactive Task (scorm)
 
-![monologofiltericon=1](Course_471/attachments/monologofiltericon=1)
+Source: [https://my.etonx.com/mod/scorm/view.php?id=31833](https://my.etonx.com/mod/scorm/view.php?id=31833)
 
-#### Understanding Essay Types Quiz
+#### What makes you a good academic writer? Interactive Task (scorm)
 
-[Understanding Essay Types Quiz](https://my.etonx.com/mod/quiz/view.php?id=25535)
+Source: [https://my.etonx.com/mod/scorm/view.php?id=31834](https://my.etonx.com/mod/scorm/view.php?id=31834)
 
-#### 📝 Check-in: Understanding Essay Types Quiz
+#### Understanding Essay Types Quiz (quiz)
 
-![monologofiltericon=1](Course_471/attachments/monologofiltericon=1)
+Source: [https://my.etonx.com/mod/quiz/view.php?id=25535](https://my.etonx.com/mod/quiz/view.php?id=25535)
 
-#### 📝 Check-in: Understanding Essay Types Quiz
+#### 📝 Check-in: Understanding Essay Types Quiz (quiz)
 
-[📝 Check-in: Understanding Essay Types Quiz](https://my.etonx.com/mod/quiz/view.php?id=25536)
+Source: [https://my.etonx.com/mod/quiz/view.php?id=25536](https://my.etonx.com/mod/quiz/view.php?id=25536)
 
-</details>
+#### Obstacles to Writing Interactive Task (scorm)
 
-<details>
-<summary>Section 2: Researching the Topic</summary>
+Source: [https://my.etonx.com/mod/scorm/view.php?id=31835](https://my.etonx.com/mod/scorm/view.php?id=31835)
 
-Select activity What's in Section 2? What's in Section 2? Interactive Task Completion Learners must . Select activity Analysing Titles Analysing Titles H5P Completion Learners must . Select activity 📝 Check-in: Analysing Titles 📝 Check-in: Analysing Titles Quiz Completion Learners must . Select activity Brainstorming Brainstorming Interactive Task Completion Learners must . Select activity 🗣️ Collaborate: Brainstorming Ideas 🗣️ Collaborate: Brainstorming Ideas Questionnaire Completion Learners must . Select activity 📝 Check-in: Brainstorming 📝 Check-in: Brainstorming Questionnaire Completion Learners must . Select activity How to Reference How to Reference Interactive Task Completion Learners must . Select activity 📝 Check In: How to Reference 📝 Check In: How to Reference Quiz Completion Learners must . Select activity Referencing Styles Referencing Styles Interactive Task Completion Learners must . Select activity Working with Sources Working with Sources Quiz Completion Learners must . Select activity 🗣️ Collaborate: Working with Sources 🗣️ Collaborate: Working with Sources Questionnaire Completion Learners must . Select activity 🗣️ Collaborate: Brainstorming ideas 🗣️ Collaborate: Brainstorming ideas Page Completion Learners must . Select activity 🤔 Reflect on your learning 🤔 Reflect on your learning Interactive Task Completion Learners must . Select activity Section 2 Summary Section 2 Summary Questionnaire Completion Learners must .
+#### 👤 Case Study: Obstacles to Writing Interactive Task (scorm)
 
-### Activities
+Source: [https://my.etonx.com/mod/scorm/view.php?id=31851](https://my.etonx.com/mod/scorm/view.php?id=31851)
 
-#### 📝 Check-in: Analysing Titles Quiz
+#### Finding your voice Interactive Task (scorm)
 
-![monologofiltericon=1](Course_471/attachments/monologofiltericon=1)
+Source: [https://my.etonx.com/mod/scorm/view.php?id=25542](https://my.etonx.com/mod/scorm/view.php?id=25542)
 
-#### 📝 Check-in: Analysing Titles Quiz
+#### 🤔 Reflect on your learning Interactive Task (scorm)
 
-[📝 Check-in: Analysing Titles Quiz](https://my.etonx.com/mod/quiz/view.php?id=25549)
+Source: [https://my.etonx.com/mod/scorm/view.php?id=32009](https://my.etonx.com/mod/scorm/view.php?id=32009)
 
-#### 📝 Check In: How to Reference Quiz
-
-![monologofiltericon=1](Course_471/attachments/monologofiltericon=1)
-
-#### 📝 Check In: How to Reference Quiz
-
-[📝 Check In: How to Reference Quiz](https://my.etonx.com/mod/quiz/view.php?id=25556)
-
-#### Working with Sources Quiz
-
-![monologofiltericon=1](Course_471/attachments/monologofiltericon=1)
-
-#### Working with Sources Quiz
-
-[Working with Sources Quiz](https://my.etonx.com/mod/quiz/view.php?id=25559)
-
-</details>
-
-<details>
-<summary>Section 8</summary>
+## Section 2: Researching the Topic
 
 ### Activities
 
-#### 📝 Check-in: Analysing Titles Quiz
+#### What's in Section 2? Interactive Task (scorm)
 
-![monologofiltericon=1](Course_471/attachments/monologofiltericon=1)
+Source: [https://my.etonx.com/mod/scorm/view.php?id=31836](https://my.etonx.com/mod/scorm/view.php?id=31836)
 
-#### 📝 Check-in: Analysing Titles Quiz
+#### 📝 Check-in: Analysing Titles Quiz (quiz)
 
-[📝 Check-in: Analysing Titles Quiz](https://my.etonx.com/mod/quiz/view.php?id=25549)
+Source: [https://my.etonx.com/mod/quiz/view.php?id=25549](https://my.etonx.com/mod/quiz/view.php?id=25549)
 
-#### 📝 Check In: How to Reference Quiz
+#### Brainstorming Interactive Task (scorm)
 
-![monologofiltericon=1](Course_471/attachments/monologofiltericon=1)
+Source: [https://my.etonx.com/mod/scorm/view.php?id=31837](https://my.etonx.com/mod/scorm/view.php?id=31837)
 
-#### 📝 Check In: How to Reference Quiz
+#### How to Reference Interactive Task (scorm)
 
-[📝 Check In: How to Reference Quiz](https://my.etonx.com/mod/quiz/view.php?id=25556)
+Source: [https://my.etonx.com/mod/scorm/view.php?id=31853](https://my.etonx.com/mod/scorm/view.php?id=31853)
 
-#### Working with Sources Quiz
+#### 📝 Check In: How to Reference Quiz (quiz)
 
-![monologofiltericon=1](Course_471/attachments/monologofiltericon=1)
+Source: [https://my.etonx.com/mod/quiz/view.php?id=25556](https://my.etonx.com/mod/quiz/view.php?id=25556)
 
-#### Working with Sources Quiz
+#### Referencing Styles Interactive Task (scorm)
 
-[Working with Sources Quiz](https://my.etonx.com/mod/quiz/view.php?id=25559)
+Source: [https://my.etonx.com/mod/scorm/view.php?id=31838](https://my.etonx.com/mod/scorm/view.php?id=31838)
 
-</details>
+#### Working with Sources Quiz (quiz)
 
-<details>
-<summary>Section 3: Planning your Essay</summary>
+Source: [https://my.etonx.com/mod/quiz/view.php?id=25559](https://my.etonx.com/mod/quiz/view.php?id=25559)
 
-Select activity What's in Section 3? What's in Section 3? Interactive Task Completion Learners must . Select activity Identifying your Argument Identifying your Argument Interactive Task Completion Learners must . Select activity Structures and Frameworks Structures and Frameworks H5P Completion Learners must Activity complete Select activity 🤔 Reflect: Structures and Frameworks 🤔 Reflect: Structures and Frameworks Page Completion Learners must . Select activity Planning Techniques Planning Techniques Interactive Task Completion Learners must . Select activity 📝 Check-in: Planning techniques 📝 Check-in: Planning techniques Quiz Completion Learners must . Select activity Creating a plan and gathering evidence Creating a plan and gathering evidence Interactive Task Completion Learners must . Select activity 🤔 Reflect on your learning 🤔 Reflect on your learning Interactive Task Completion Learners must . Select activity Section 3 Summary Section 3 Summary Questionnaire Completion Learners must .
+#### 🤔 Reflect on your learning Interactive Task (scorm)
 
-### Activities
+Source: [https://my.etonx.com/mod/scorm/view.php?id=32010](https://my.etonx.com/mod/scorm/view.php?id=32010)
 
-#### 📝 Check-in: Planning techniques Quiz
-
-![monologofiltericon=1](Course_471/attachments/monologofiltericon=1)
-
-#### 📝 Check-in: Planning techniques Quiz
-
-[📝 Check-in: Planning techniques Quiz](https://my.etonx.com/mod/quiz/view.php?id=25570)
-
-</details>
-
-<details>
-<summary>Section 10</summary>
+## Section 3: Planning your Essay
 
 ### Activities
 
-#### 📝 Check-in: Planning techniques Quiz
+#### What's in Section 3? Interactive Task (scorm)
 
-![monologofiltericon=1](Course_471/attachments/monologofiltericon=1)
+Source: [https://my.etonx.com/mod/scorm/view.php?id=31839](https://my.etonx.com/mod/scorm/view.php?id=31839)
 
-#### 📝 Check-in: Planning techniques Quiz
+#### Identifying your Argument Interactive Task (scorm)
 
-[📝 Check-in: Planning techniques Quiz](https://my.etonx.com/mod/quiz/view.php?id=25570)
+Source: [https://my.etonx.com/mod/scorm/view.php?id=31840](https://my.etonx.com/mod/scorm/view.php?id=31840)
 
-</details>
+#### Planning Techniques Interactive Task (scorm)
 
-<details>
-<summary>Section 4: Building your Argument</summary>
+Source: [https://my.etonx.com/mod/scorm/view.php?id=31855](https://my.etonx.com/mod/scorm/view.php?id=31855)
 
-Select activity What's in Section 4? What's in Section 4? Interactive Task Completion Learners must . Select activity Writing Introductions Writing Introductions Interactive Task Completion Learners must . Activity complete Select activity Structuring your paragraphs Structuring your paragraphs Interactive Task Completion Learners must . Activity complete Select activity 📝 Check-in: Structuring your paragraphs 📝 Check-in: Structuring your paragraphs H5P Completion Learners must Activity complete Select activity Supporting Evidence Supporting Evidence Interactive Task Completion Learners must . Activity complete Select activity Writing conclusions Writing conclusions Interactive Task Completion Learners must . Select activity Contentious Statements Contentious Statements Interactive Task Completion Learners must . Select activity 🤔 Reflect on your learning 🤔 Reflect on your learning Interactive Task Completion Learners must . Select activity Section 4 Summary Section 4 Summary Questionnaire Completion Learners must .
+#### 📝 Check-in: Planning techniques Quiz (quiz)
 
-No activities available.
+Source: [https://my.etonx.com/mod/quiz/view.php?id=25570](https://my.etonx.com/mod/quiz/view.php?id=25570)
 
-</details>
+#### Creating a plan and gathering evidence Interactive Task (scorm)
 
-<details>
-<summary>Section 12</summary>
+Source: [https://my.etonx.com/mod/scorm/view.php?id=31842](https://my.etonx.com/mod/scorm/view.php?id=31842)
 
-No activities available.
+#### 🤔 Reflect on your learning Interactive Task (scorm)
 
-</details>
+Source: [https://my.etonx.com/mod/scorm/view.php?id=32011](https://my.etonx.com/mod/scorm/view.php?id=32011)
 
-<details>
-<summary>Section 5: Developing your Writing Style</summary>
-
-Select activity What's in Section 5? What's in Section 5? Interactive Task Completion Learners must . Select activity Appropriate writing styles Appropriate writing styles Interactive Task Completion Learners must . Select activity 📝 Check-in: Appropriate writing styles 📝 Check-in: Appropriate writing styles Quiz Completion Learners must Activity complete Select activity Active and Passive Voice Active and Passive Voice Interactive Task Completion Learners must . Select activity 📝 Pre-check: Writing effective sentences 📝 Pre-check: Writing effective sentences Quiz Completion Learners must . Select activity Writing effective sentences Writing effective sentences Interactive Task Completion Learners must . Select activity Using expressions to develop your essay Using expressions to develop your essay H5P Completion Learners must Activity complete Select activity 📝 Check-in: Using expressions to develop your essay 📝 Check-in: Using expressions to develop your essay Quiz Completion Learners must . Select activity Precise Language Precise Language Interactive Task Completion Learners must . Select activity 📝 Check-in: Precise language 📝 Check-in: Precise language Quiz Completion Learners must . Select activity 🤔 Reflect on your learning 🤔 Reflect on your learning Interactive Task Completion Learners must . Select activity Section 5 Summary Section 5 Summary Questionnaire Completion Learners must .
+## Section 4: Building your Argument
 
 ### Activities
 
-#### 📝 Check-in: Appropriate writing styles Quiz
+#### What's in Section 4? Interactive Task (scorm)
 
-![monologofiltericon=1](Course_471/attachments/monologofiltericon=1)
+Source: [https://my.etonx.com/mod/scorm/view.php?id=31843](https://my.etonx.com/mod/scorm/view.php?id=31843)
 
-#### 📝 Check-in: Appropriate writing styles Quiz
+#### Writing Introductions Interactive Task (scorm)
 
-[📝 Check-in: Appropriate writing styles Quiz](https://my.etonx.com/mod/quiz/view.php?id=25591)
+Source: [https://my.etonx.com/mod/scorm/view.php?id=31844](https://my.etonx.com/mod/scorm/view.php?id=31844)
 
-#### 📝 Pre-check: Writing effective sentences Quiz
+#### Structuring your paragraphs Interactive Task (scorm)
 
-![monologofiltericon=1](Course_471/attachments/monologofiltericon=1)
+Source: [https://my.etonx.com/mod/scorm/view.php?id=31845](https://my.etonx.com/mod/scorm/view.php?id=31845)
 
-#### 📝 Pre-check: Writing effective sentences Quiz
+#### Supporting Evidence Interactive Task (scorm)
 
-[📝 Pre-check: Writing effective sentences Quiz](https://my.etonx.com/mod/quiz/view.php?id=25593)
+Source: [https://my.etonx.com/mod/scorm/view.php?id=31846](https://my.etonx.com/mod/scorm/view.php?id=31846)
 
-#### 📝 Check-in: Using expressions to develop your essay Quiz
+#### Writing conclusions Interactive Task (scorm)
 
-![monologofiltericon=1](Course_471/attachments/monologofiltericon=1)
+Source: [https://my.etonx.com/mod/scorm/view.php?id=31856](https://my.etonx.com/mod/scorm/view.php?id=31856)
 
-#### 📝 Check-in: Using expressions to develop your essay Quiz
+#### Contentious Statements Interactive Task (scorm)
 
-[📝 Check-in: Using expressions to develop your essay Quiz](https://my.etonx.com/mod/quiz/view.php?id=25597)
+Source: [https://my.etonx.com/mod/scorm/view.php?id=31857](https://my.etonx.com/mod/scorm/view.php?id=31857)
 
-#### 📝 Check-in: Precise language Quiz
+#### 🤔 Reflect on your learning Interactive Task (scorm)
 
-![monologofiltericon=1](Course_471/attachments/monologofiltericon=1)
+Source: [https://my.etonx.com/mod/scorm/view.php?id=32012](https://my.etonx.com/mod/scorm/view.php?id=32012)
 
-#### 📝 Check-in: Precise language Quiz
-
-[📝 Check-in: Precise language Quiz](https://my.etonx.com/mod/quiz/view.php?id=25599)
-
-</details>
-
-<details>
-<summary>Section 14</summary>
+## Section 5: Developing your Writing Style
 
 ### Activities
 
-#### 📝 Check-in: Appropriate writing styles Quiz
+#### What's in Section 5? Interactive Task (scorm)
 
-![monologofiltericon=1](Course_471/attachments/monologofiltericon=1)
+Source: [https://my.etonx.com/mod/scorm/view.php?id=31847](https://my.etonx.com/mod/scorm/view.php?id=31847)
 
-#### 📝 Check-in: Appropriate writing styles Quiz
+#### Appropriate writing styles Interactive Task (scorm)
 
-[📝 Check-in: Appropriate writing styles Quiz](https://my.etonx.com/mod/quiz/view.php?id=25591)
+Source: [https://my.etonx.com/mod/scorm/view.php?id=31861](https://my.etonx.com/mod/scorm/view.php?id=31861)
 
-#### 📝 Pre-check: Writing effective sentences Quiz
+#### 📝 Check-in: Appropriate writing styles Quiz (quiz)
 
-![monologofiltericon=1](Course_471/attachments/monologofiltericon=1)
+Source: [https://my.etonx.com/mod/quiz/view.php?id=25591](https://my.etonx.com/mod/quiz/view.php?id=25591)
 
-#### 📝 Pre-check: Writing effective sentences Quiz
+#### Active and Passive Voice Interactive Task (scorm)
 
-[📝 Pre-check: Writing effective sentences Quiz](https://my.etonx.com/mod/quiz/view.php?id=25593)
+Source: [https://my.etonx.com/mod/scorm/view.php?id=31862](https://my.etonx.com/mod/scorm/view.php?id=31862)
 
-#### 📝 Check-in: Using expressions to develop your essay Quiz
+#### 📝 Pre-check: Writing effective sentences Quiz (quiz)
 
-![monologofiltericon=1](Course_471/attachments/monologofiltericon=1)
+Source: [https://my.etonx.com/mod/quiz/view.php?id=25593](https://my.etonx.com/mod/quiz/view.php?id=25593)
 
-#### 📝 Check-in: Using expressions to develop your essay Quiz
+#### Writing effective sentences Interactive Task (scorm)
 
-[📝 Check-in: Using expressions to develop your essay Quiz](https://my.etonx.com/mod/quiz/view.php?id=25597)
+Source: [https://my.etonx.com/mod/scorm/view.php?id=31863](https://my.etonx.com/mod/scorm/view.php?id=31863)
 
-#### 📝 Check-in: Precise language Quiz
+#### 📝 Check-in: Using expressions to develop your essay Quiz (quiz)
 
-![monologofiltericon=1](Course_471/attachments/monologofiltericon=1)
+Source: [https://my.etonx.com/mod/quiz/view.php?id=25597](https://my.etonx.com/mod/quiz/view.php?id=25597)
 
-#### 📝 Check-in: Precise language Quiz
+#### Precise Language Interactive Task (scorm)
 
-[📝 Check-in: Precise language Quiz](https://my.etonx.com/mod/quiz/view.php?id=25599)
+Source: [https://my.etonx.com/mod/scorm/view.php?id=31848](https://my.etonx.com/mod/scorm/view.php?id=31848)
 
-</details>
+#### 📝 Check-in: Precise language Quiz (quiz)
 
-<details>
-<summary>Section 6: Editing your Essay</summary>
+Source: [https://my.etonx.com/mod/quiz/view.php?id=25599](https://my.etonx.com/mod/quiz/view.php?id=25599)
 
-Select activity What's in Section 6? What's in Section 6? Interactive Task Completion Learners must . Select activity Identifying Sources of Potential Misunderstanding Identifying Sources of Potential Misunderstanding Interactive Task Completion Learners must . Activity complete Select activity 📝 Pre-check: Checking your work 📝 Pre-check: Checking your work Quiz Completion Learners must . Select activity Checking your work Checking your work Interactive Task Completion Learners must . Select activity Proof-reading your work Proof-reading your work Questionnaire Completion Learners must . Select activity 📝 Check-in: Proof-reading your work 📝 Check-in: Proof-reading your work Quiz Completion Learners must . Select activity 🤔 Reflect on your learning 🤔 Reflect on your learning Interactive Task Completion Learners must . Select activity Section 6 Summary Section 6 Summary Questionnaire Completion Learners must . Select activity 📚 End-of-Course Assessment 📚 End-of-Course Assessment Quiz Completion Learners must .
+#### 🤔 Reflect on your learning Interactive Task (scorm)
 
-### Activities
+Source: [https://my.etonx.com/mod/scorm/view.php?id=32013](https://my.etonx.com/mod/scorm/view.php?id=32013)
 
-#### 📝 Pre-check: Checking your work Quiz
-
-![monologofiltericon=1](Course_471/attachments/monologofiltericon=1)
-
-#### 📝 Pre-check: Checking your work Quiz
-
-[📝 Pre-check: Checking your work Quiz](https://my.etonx.com/mod/quiz/view.php?id=25606)
-
-#### 📝 Check-in: Proof-reading your work Quiz
-
-![monologofiltericon=1](Course_471/attachments/monologofiltericon=1)
-
-#### 📝 Check-in: Proof-reading your work Quiz
-
-[📝 Check-in: Proof-reading your work Quiz](https://my.etonx.com/mod/quiz/view.php?id=25610)
-
-#### 📚 End-of-Course Assessment Quiz
-
-![monologofiltericon=1](Course_471/attachments/monologofiltericon=1)
-
-#### 📚 End-of-Course Assessment Quiz
-
-[📚 End-of-Course Assessment Quiz](https://my.etonx.com/mod/quiz/view.php?id=25612)
-
-</details>
-
-<details>
-<summary>Section 16</summary>
+## Section 6: Editing your Essay
 
 ### Activities
 
-#### 📝 Pre-check: Checking your work Quiz
+#### What's in Section 6? Interactive Task (scorm)
 
-![monologofiltericon=1](Course_471/attachments/monologofiltericon=1)
+Source: [https://my.etonx.com/mod/scorm/view.php?id=31849](https://my.etonx.com/mod/scorm/view.php?id=31849)
 
-#### 📝 Pre-check: Checking your work Quiz
+#### Identifying Sources of Potential Misunderstanding Interactive Task (scorm)
 
-[📝 Pre-check: Checking your work Quiz](https://my.etonx.com/mod/quiz/view.php?id=25606)
+Source: [https://my.etonx.com/mod/scorm/view.php?id=31850](https://my.etonx.com/mod/scorm/view.php?id=31850)
 
-#### 📝 Check-in: Proof-reading your work Quiz
+#### 📝 Pre-check: Checking your work Quiz (quiz)
 
-![monologofiltericon=1](Course_471/attachments/monologofiltericon=1)
+Source: [https://my.etonx.com/mod/quiz/view.php?id=25606](https://my.etonx.com/mod/quiz/view.php?id=25606)
 
-#### 📝 Check-in: Proof-reading your work Quiz
+#### Checking your work Interactive Task (scorm)
 
-[📝 Check-in: Proof-reading your work Quiz](https://my.etonx.com/mod/quiz/view.php?id=25610)
+Source: [https://my.etonx.com/mod/scorm/view.php?id=31865](https://my.etonx.com/mod/scorm/view.php?id=31865)
 
-#### 📚 End-of-Course Assessment Quiz
+#### 📝 Check-in: Proof-reading your work Quiz (quiz)
 
-![monologofiltericon=1](Course_471/attachments/monologofiltericon=1)
+Source: [https://my.etonx.com/mod/quiz/view.php?id=25610](https://my.etonx.com/mod/quiz/view.php?id=25610)
 
-#### 📚 End-of-Course Assessment Quiz
+#### 🤔 Reflect on your learning Interactive Task (scorm)
 
-[📚 End-of-Course Assessment Quiz](https://my.etonx.com/mod/quiz/view.php?id=25612)
+Source: [https://my.etonx.com/mod/scorm/view.php?id=32014](https://my.etonx.com/mod/scorm/view.php?id=32014)
 
-</details>
+#### 📚 End-of-Course Assessment Quiz (quiz)
 
-<details>
-<summary>Summing Up</summary>
+Source: [https://my.etonx.com/mod/quiz/view.php?id=25612](https://my.etonx.com/mod/quiz/view.php?id=25612)
 
-Select activity Understanding SMART Objectives Understanding SMART Objectives Page Completion Learners must . Select activity Your Personal Development Plan Your Personal Development Plan Questionnaire Completion Learners must . Select activity Course Certificate Course Certificate
+## Summing Up
 
-No activities available.
+No activities found.
 
-</details>
+## Journal
 
-<details>
-<summary>Section 18</summary>
+No activities found.
 
-No activities available.
+## Resources
 
-</details>
+Additional resources which are available to students within their online course.
 
-<details>
-<summary>Journal</summary>
-
-Select activity Journal Journal
-
-No activities available.
-
-</details>
-
-<details>
-<summary>Section 20</summary>
-
-No activities available.
-
-</details>
-
-<details>
-<summary>Resources</summary>
-
-Additional resources which are available to students within their online course. Student Resources Additional resources which are available to students within their online course. Select activity Glossary Glossary Page Select activity Additional Reading Additional Reading Page Select activity Additional Viewing Additional Viewing Page Teacher Resources Select activity Follow Up Activities Follow Up Activities Page Select activity Teacher's Guide Teacher's Guide Page Select activity Workshops Workshops Page
-
-No activities available.
-
-</details>
-
-<details>
-<summary>Section 22</summary>
-
-No activities available.
-
-</details>
-
-<details>
-<summary>Student Resources</summary>
-
-Additional resources which are available to students within their online course. Select activity Glossary Glossary Page Select activity Additional Reading Additional Reading Page Select activity Additional Viewing Additional Viewing Page
-
-No activities available.
-
-</details>
-
-<details>
-<summary>Section 24</summary>
-
-No activities available.
-
-</details>
-
-<details>
-<summary>Teacher Resources</summary>
-
-Select activity Follow Up Activities Follow Up Activities Page Select activity Teacher's Guide Teacher's Guide Page Select activity Workshops Workshops Page
-
-No activities available.
-
-</details>
-
-<details>
-<summary>Section 26</summary>
-
-No activities available.
-
-</details>
+No activities found.
 
