@@ -1,93 +1,202 @@
 <!DOCTYPE html>
-<html lang=en>
-
+<html lang="en">
 <head>
-    <meta charset=utf-8>
-    <meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no,minimal-ui">
-    <meta name=theme-color content=#000000>
-    <meta name=apple-mobile-web-app-capable content=yes>
-    <meta name=mobile-web-app-capable content=yes>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@100;200;300;400;500;600;700;800;900&display=swap"
-        rel=stylesheet>
-    <meta name=color-scheme content="light only">
-    <meta http-equiv=X-UA-Compatible content="IE=edge">
-    <meta name=google content=notranslate>
-    <meta http-equiv=Content-Type content="text/html; charset=utf-8">
-    <meta name=application-name content=Genially>
-    <meta property=og:title content="Section 1">
-    <meta property=og:site_name content=Genially>
-    <meta property=og:description content="">
-    <meta property=og:image
-        content=https://thumbnails.genially.com/58368c91ba1aa62f3065085d/screenshots/6def5d67-a791-4621-8104-aed7a5cd3551.jpg>
-    <meta property=og:image:secure_url
-        content=https://thumbnails.genially.com/58368c91ba1aa62f3065085d/screenshots/6def5d67-a791-4621-8104-aed7a5cd3551.jpg>
-    <meta property=og:image:width content=1200>
-    <meta property=og:image:height content=675>
-    <meta property=og:url content=https://view.genially.com/6555e76a4a4dc20011ad703c>
-    <meta property=og:type content=website>
-    <meta property=fb:app_id content=1494586530820799>
-    <meta name=twitter:card content=player>
-    <meta name=twitter:site content=@genially_es>
-    <meta name=twitter:domain content=https://genially.com/>
-    <meta name=twitter:title content="Section 1">
-    <meta name=twitter:description content="">
-    <meta name=twitter:image
-        content=https://thumbnails.genially.com/58368c91ba1aa62f3065085d/screenshots/6def5d67-a791-4621-8104-aed7a5cd3551.jpg>
-    <meta name=twitter:player content=https://view.genially.com/6555e76a4a4dc20011ad703c>
-    <meta name=twitter:player:width content=1200>
-    <meta name=twitter:player:height content=675>
-    <meta name=description content="">
-    <meta name=p:domain_verify content=eaaac27aee644a70f919ccfe01fcd3d6>
-    <link rel=alternate type=application/json+oembed
-        href="https://genially.com/services/oembed?url=https://view.genially.com/6555e76a4a4dc20011ad703c"
-        title="Section 1">
-    <link rel=apple-touch-icon
-        href=https://thumbnails.genially.com/58368c91ba1aa62f3065085d/screenshots/6def5d67-a791-4621-8104-aed7a5cd3551.jpg>
-    <meta name=robots content="noindex, noimageindex">
-    <meta name=robots content=nofollow>
-    <title>Section 1</title>
-    <link rel=icon href=/favicon.ico type=image/x-icon>
-    <link rel="shortcut icon" href=/favicon.ico type=image/x-icon>
-    <link href=https://statics-view.genially.com/view/static/css/main.97680a18.css rel=stylesheet>
-    <link href=https://statics-view.genially.com/view/static/css/view.0.0.87.css rel=stylesheet>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Course</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .collapse-toggle { display: none; }
+        .collapse-toggle:checked ~ .collapse-content { max-height: 1000px; opacity: 1; }
+        .collapse-toggle:checked ~ .collapse-label .fa-chevron-down { transform: rotate(180deg); }
+        .collapse-content { max-height: 0; opacity: 0; overflow: hidden; transition: all 0.3s ease; }
+        .collapse-label { cursor: pointer; }
+    </style>
 </head>
-
-<body>
-    <div class=iframe-container>
-        <div class=container-wrapper-genially style="position: relative; width: 100%; height:100%"><noscript>You need to
-                enable JavaScript to run this app.</noscript>
-            <div id=6555e76a4a4dc20011ad703c data-location=exclusive class=genially-embed
-                style="margin: 0px auto; position: relative; height: auto; width: 100%;"></div>
-        </div>
-    </div>
-    <div class=genially-social>
-        <div class="genially-social-container-genially genially-horizontal genially-exclusive" data-width=1200
-            data-height=675><noscript>You need to enable JavaScript to run this app.</noscript>
-            <div class=container-wrapper-genially style="position: relative; width: 100%;"><img aria-hidden=true alt=""
-                    src=https://static.genially.com/view/empty-loader-rebranding.gif class=loader-genially style="position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    margin-top: auto;
-    margin-right: auto;
-    margin-bottom: auto;
-    margin-left: auto;
-    z-index: 1;
-    width: 120px;">
-                <div id=6555e76a4a4dc20011ad703c data-location=exclusive class=genially-embed
-                    style="margin: 0px auto; position: relative; height: auto; width: 100%;"></div>
+<body class="bg-gray-50 font-sans antialiased">
+    <header class="bg-gradient-to-r from-blue-600 to-blue-700 text-white p-6 shadow-lg">
+        <h1 class="text-4xl font-bold tracking-tight">AI Course</h1>
+    </header>
+    <nav class="bg-white p-4 shadow-sm">
+        <ul class="flex space-x-6 max-w-4xl mx-auto">
+            <li><a href="#course" class="text-blue-600 hover:text-blue-800 font-medium">Course</a></li>
+            <!-- <li><a href="#journal" class="text-blue-600 hover:text-blue-800 font-medium">Journal</a></li>
+            <li><a href="#resources" class="text-blue-600 hover:text-blue-800 font-medium">Additional Resources</a></li> -->
+        </ul>
+    </nav>
+    <main class="max-w-4xl mx-auto p-6">
+        <section id="course" class="mb-12">
+            <h2 class="text-3xl font-semibold text-gray-800 mb-6">Course</h2>
+            <div class="bg-white p-6 rounded-lg shadow-md mb-4">
+                <input type="checkbox" id="getting-started-toggle" class="collapse-toggle">
+                <label for="getting-started-toggle" class="collapse-label text-xl font-medium text-gray-800 flex justify-between items-center">
+                    Getting Started
+                    <i class="fa fa-chevron-down text-gray-500 transition-transform"></i>
+                </label>
+                <div class="collapse-content mt-4">
+                    <ul class="list-disc pl-6 text-gray-700">
+                        <li><a href="iframes/welcome.html" class="text-blue-600 hover:underline">😃 Welcome</a></li>
+                        <li><a href="iframes/All_About_Your_Course.html" class="text-blue-600 hover:underline">📚 All About Your Course</a></li>
+                        <li><a href="iframes/A_snapshot_in_time.html" class="text-blue-600 hover:underline">⚡️ A snapshot in time</a></li>
+                        <li><a href="#" class="text-blue-600 hover:underline">✅ Check your AI skills</a></li>
+                    </ul>
+                </div>
             </div>
-        </div>
-    </div>
-    <script defer type=text/javascript
-        src=https://statics-view.genially.com/view/static/js/dist/exclusive.0.0.58.min.js></script>
-    <script defer type=text/javascript
-        src=https://statics-view.genially.com/view/static/js/dist/view.0.0.58.min.js></script>
-    <script defer type=text/javascript
-        src=https://statics-view.genially.com/view/static/js/runtime.953ab26a.js></script>
-    <script defer type=text/javascript src=https://statics-view.genially.com/view/static/js/main.73f05ae7.js></script>
+            <div class="bg-white p-6 rounded-lg shadow-md mb-4">
+                <input type="checkbox" id="section1-toggle" class="collapse-toggle">
+                <label for="section1-toggle" class="collapse-label text-xl font-medium text-gray-800 flex justify-between items-center">
+                    Section 1: What is AI?
+                    <i class="fa fa-chevron-down text-gray-500 transition-transform"></i>
+                </label>
+                <div class="collapse-content mt-4">
+                    <ul class="list-disc pl-6 text-gray-700">
+                        <li><a href="#" class="text-blue-600 hover:underline">Section 1 Introduction</a></li>
+                        <li><a href="#" class="text-blue-600 hover:underline">AI in everyday life</a></li>
+                        <li><a href="#" class="text-blue-600 hover:underline">What is intelligence?</a></li>
+                        <li><a href="#" class="text-blue-600 hover:underline">Activity: What is intelligence?</a></li>
+                        <li><a href="#" class="text-blue-600 hover:underline">Activity: A scale of intelligence</a></li>
+                        <li><a href="#" class="text-blue-600 hover:underline">A brief history lesson</a></li>
+                        <li><a href="#" class="text-blue-600 hover:underline">The AI effect</a></li>
+                        <li><a href="#" class="text-blue-600 hover:underline">Section 1 Quiz</a></li>
+                        <li><a href="#" class="text-blue-600 hover:underline">Section 1 Reflection</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="bg-white p-6 rounded-lg shadow-md mb-4">
+                <input type="checkbox" id="section2-toggle" class="collapse-toggle">
+                <label for="section2-toggle" class="collapse-label text-xl font-medium text-gray-800 flex justify-between items-center">
+                    Section 2: Types of AI
+                    <i class="fa fa-chevron-down text-gray-500 transition-transform"></i>
+                </label>
+                <div class="collapse-content mt-4">
+                    <ul class="list-disc pl-6 text-gray-700">
+                        <li><a href="#" class="text-blue-600 hover:underline">Section 2 Introduction</a></li>
+                        <li><a href="#" class="text-blue-600 hover:underline">What are algorithms?</a></li>
+                        <li><a href="#" class="text-blue-600 hover:underline">Classical (symbolic) AIs</a></li>
+                        <li><a href="#" class="text-blue-600 hover:underline">Taking inspiration from nature</a></li>
+                        <li><a href="#" class="text-blue-600 hover:underline">Neural networks fundamentals</a></li>
+                        <li><a href="#" class="text-blue-600 hover:underline">The main types of neural networks</a></li>
+                        <li><a href="#" class="text-blue-600 hover:underline">Neural Networks Drag and Drop</a></li>
+                        <li><a href="#" class="text-blue-600 hover:underline">Machine learning</a></li>
+                        <li><a href="#" class="text-blue-600 hover:underline">Section 2 Quiz</a></li>
+                        <li><a href="#" class="text-blue-600 hover:underline">Section 2 Reflection</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="bg-white p-6 rounded-lg shadow-md mb-4">
+                <input type="checkbox" id="section3-toggle" class="collapse-toggle">
+                <label for="section3-toggle" class="collapse-label text-xl font-medium text-gray-800 flex justify-between items-center">
+                    Section 3: Conversational AI
+                    <i class="fa fa-chevron-down text-gray-500 transition-transform"></i>
+                </label>
+                <div class="collapse-content mt-4">
+                    <ul class="list-disc pl-6 text-gray-700">
+                        <li><a href="#" class="text-blue-600 hover:underline">Section 3 Introduction</a></li>
+                        <li><a href="#" class="text-blue-600 hover:underline">Large language models (LLMs)</a></li>
+                        <li><a href="#" class="text-blue-600 hover:underline">The big three of '23</a></li>
+                        <li><a href="#" class="text-blue-600 hover:underline">Hallucinations</a></li>
+                        <li><a href="#" class="text-blue-600 hover:underline">Connected conversational AIs</a></li>
+                        <li><a href="#" class="text-blue-600 hover:underline">The bootstrap problem</a></li>
+                        <li><a href="#" class="text-blue-600 hover:underline">Section 3 Quiz</a></li>
+                        <li><a href="#" class="text-blue-600 hover:underline">Section 3 Reflection</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="bg-white p-6 rounded-lg shadow-md mb-4">
+                <input type="checkbox" id="section4-toggle" class="collapse-toggle">
+                <label for="section4-toggle" class="collapse-label text-xl font-medium text-gray-800 flex justify-between items-center">
+                    Section 4: Prompt Engineering
+                    <i class="fa fa-chevron-down text-gray-500 transition-transform"></i>
+                </label>
+                <div class="collapse-content mt-4">
+                    <ul class="list-disc pl-6 text-gray-700">
+                        <li><a href="#" class="text-blue-600 hover:underline">Section 4 Introduction</a></li>
+                        <li><a href="#" class="text-blue-600 hover:underline">Detail and refinement</a></li>
+                        <li><a href="#" class="text-blue-600 hover:underline">Simulation and simulacra</a></li>
+                        <li><a href="#" class="text-blue-600 hover:underline">Activity: Simulation and simulacra</a></li>
+                        <li><a href="#" class="text-blue-600 hover:underline">Who, when, with, what, why?</a></li>
+                        <li><a href="#" class="text-blue-600 hover:underline">Prompts for learning</a></li>
+                        <li><a href="#" class="text-blue-600 hover:underline">Image generation</a></li>
+                        <li><a href="#" class="text-blue-600 hover:underline">What else can an AI generate?</a></li>
+                        <li><a href="#" class="text-blue-600 hover:underline">Section 4 Quiz</a></li>
+                        <li><a href="#" class="text-blue-600 hover:underline">Section 4 Reflection</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="bg-white p-6 rounded-lg shadow-md mb-4">
+                <input type="checkbox" id="section5-toggle" class="collapse-toggle">
+                <label for="section5-toggle" class="collapse-label text-xl font-medium text-gray-800 flex justify-between items-center">
+                    Section 5: Society and AI
+                    <i class="fa fa-chevron-down text-gray-500 transition-transform"></i>
+                </label>
+                <div class="collapse-content mt-4">
+                    <ul class="list-disc pl-6 text-gray-700">
+                        <li><a href="#" class="text-blue-600 hover:underline">Section 5 Introduction</a></li>
+                        <li><a href="#" class="text-blue-600 hover:underline">Inclusion and accessibility</a></li>
+                        <li><a href="#" class="text-blue-600 hover:underline">Healthcare, finance and cybersecurity</a></li>
+                        <li><a href="#" class="text-blue-600 hover:underline">Bias</a></li>
+                        <li><a href="#" class="text-blue-600 hover:underline">Ethics and Alignment</a></li>
+                        <li><a href="#" class="text-blue-600 hover:underline">Fake news and deepfakes</a></li>
+                        <li><a href="#" class="text-blue-600 hover:underline">Safety and responsibility</a></li>
+                        <li><a href="#" class="text-blue-600 hover:underline">Section 5 Quiz</a></li>
+                        <li><a href="#" class="text-blue-600 hover:underline">Section 5 Reflection</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="bg-white p-6 rounded-lg shadow-md mb-4">
+                <input type="checkbox" id="section6-toggle" class="collapse-toggle">
+                <label for="section6-toggle" class="collapse-label text-xl font-medium text-gray-800 flex justify-between items-center">
+                    Section 6: The Future of AI
+                    <i class="fa fa-chevron-down text-gray-500 transition-transform"></i>
+                </label>
+                <div class="collapse-content mt-4">
+                    <ul class="list-disc pl-6 text-gray-700">
+                        <li><a href="#" class="text-blue-600 hover:underline">Section 6 Introduction</a></li>
+                        <li><a href="#" class="text-blue-600 hover:underline">Where are we on the sigmoid curve?</a></li>
+                        <li><a href="#" class="text-blue-600 hover:underline">Jobs and intellectual property</a></li>
+                        <li><a href="#" class="text-blue-600 hover:underline">Artificial general intelligence (AGI)</a></li>
+                        <li><a href="#" class="text-blue-600 hover:underline">Existential threat!?</a></li>
+                        <li><a href="#" class="text-blue-600 hover:underline">It all comes down to this...</a></li>
+                        <li><a href="#" class="text-blue-600 hover:underline">Section 6 Quiz</a></li>
+                        <li><a href="#" class="text-blue-600 hover:underline">Section 6 Reflection</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="bg-white p-6 rounded-lg shadow-md">
+                <h3 class="text-xl font-medium text-gray-800">Course Certificate</h3>
+                <p class="mt-2 text-gray-700">Earn a certificate upon successful completion of the course.</p>
+                <ul class="mt-4 list-disc pl-6 text-gray-700">
+                    <li><a href="#" class="text-blue-600 hover:underline">Certificate Requirements</a></li>
+                    <li><a href="#" class="text-blue-600 hover:underline">Claim Your Certificate</a></li>
+                </ul>
+            </div>
+        </section>
+        <section id="journal" class="mb-12">
+            <h2 class="text-3xl font-semibold text-gray-800 mb-6">Journal</h2>
+            <div class="bg-white p-6 rounded-lg shadow-md">
+                <p class="text-gray-700">Keep a journal of your learning experiences and insights throughout the course.</p>
+                <ul class="mt-4 list-disc pl-6 text-gray-700">
+                    <li><a href="#" class="text-blue-600 hover:underline">Journal Guidelines</a></li>
+                    <li><a href="#" class="text-blue-600 hover:underline">Submit Entry</a></li>
+                    <li><a href="#" class="text-blue-600 hover:underline">View Entries</a></li>
+                </ul>
+            </div>
+        </section>
+        <section id="resources" class="mb-12">
+            <h2 class="text-3xl font-semibold text-gray-800 mb-6">Additional Resources</h2>
+            <div class="bg-white p-6 rounded-lg shadow-md">
+                <p class="text-gray-700">Explore supplementary materials, readings, and tools to enhance your learning.</p>
+                <ul class="mt-4 list-disc pl-6 text-gray-700">
+                    <li><a href="#" class="text-blue-600 hover:underline">Recommended Books</a></li>
+                    <li><a href="#" class="text-blue-600 hover:underline">Online Tools</a></li>
+                    <li><a href="#" class="text-blue-600 hover:underline">Research Papers</a></li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <footer class="bg-gray-800 text-white p-6 text-center">
+        <p>© 2025 AI Course. All rights reserved.</p>
+    </footer>
 </body>
-
 </html>
