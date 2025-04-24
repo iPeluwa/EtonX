@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wami Aluko - Visual Storyteller</title>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+  <!-- GSAP -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+  <!-- Lottie Web -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.10.1/lottie.min.js"></script>
+  <style>
+    :root {
+      --ochre: #C68642;
+      --forest-green: #2E8B57;
+      --charcoal: #0d0d0d;
+      --white: #FFFFFF;
+      --transition: 0.5s ease;
+    }
+    *, *::before, *::after { margin:0; padding:0; box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: 'Montserrat', sans-serif;
+      background: var(--charcoal);
+      color: var(--white);
+      overflow-x: hidden;
+      cursor: none;
+    }
+    /* Custom Cursor */
+    #cursor {
+      position: fixed;
+      top: 0; left: 0;
+      width: 20px; height: 20px;
+      border: 2px solid var(--ochre);
+      border-radius: 50%;
+      pointer-events: none;
+      transform: translate(-50%, -50%);
+      transition: width 0.2s ease, height 0.2s ease, background 0.2s ease;
+      z-index: 3000;
+    }
+    a:hover ~ #cursor, .btn:hover ~ #cursor {
+      width: 40px; height: 40px; background: rgba(198,134,66,0.3);
+    }
+    /* Preloader */
+    #preloader { position: fixed; inset: 0; background: var(--charcoal); display: flex; align-items: center; justify-content: center; z-index: 2000; }
+    .spinner { width:60px; height:60px; border:6px solid rgba(255,255,255,0.2); border-top-color: var(--ochre); border-radius:50%; animation: spin 1s linear infinite; }
+    @keyframes spin { to { transform: rotate(360deg); } }
+    /* Header */
+    header { position: fixed; top:0; width:100%; padding:1rem 2rem; display:flex; justify-content:space-between; align-items:center; background:transparent; transition: background 0.4s; z-index:1000; }
+    header.scrolled { background: rgba(13,13,13,0.95); }
+    .logo-container { width: 120px; height: 40px; cursor: pointer; }
+    /* Nav Toggle */
+    .nav-toggle { width:28px; height:20px; position:relative; cursor:pointer; }
+    .nav-toggle span { position:absolute; height:3px; width:100%; background: var(--white); left:0; transition: transform 0.4s, opacity 0.4s; }
+    .nav-toggle span:nth-child(1) { top:0; }
+    .nav-toggle span:nth-child(2) { top:50%; transform: translateY(-50%); }
+    .nav-toggle span:nth-child(3) { bottom:0; }
+    .nav-open .nav-toggle span:nth-child(1) { transform: rotate(45deg) translateY(8px); }
+    .nav-open .nav-toggle span:nth-child(2) { opacity:0; }
+    .nav-open .nav-toggle span:nth-child(3) { transform: rotate(-45deg) translateY(-8px); }
+    /* Nav Menu */
+    nav { position: fixed; top:0; right:-100%; width:280px; height:100vh; background: rgba(13,13,13,0.95); display:flex; align-items:center; justify-content:center; transition: right 0.5s var(--transition); }
+    .nav-open nav { right:0; }
+    nav ul { list-style:none; text-align:center; }
+    nav li { margin:1.5rem 0; }
+    nav a { color: var(--white); text-decoration:none; font-size:1.2rem; font-weight:500; position:relative; }
+    nav a::after { content:''; position:absolute; left:0; bottom:-4px; width:0; height:2px; background: var(--ochre); transition: width 0.3s ease; }
+    nav a:hover::after { width:100%; }
+    /* Hero */
+    .hero { position: relative; width:100%; height:100vh; overflow:hidden; }
+    .hero video { position:absolute; top:50%; left:50%; width:auto; height:100%; min-width:100%; min-height:100%; transform:translate(-50%,-50%); object-fit:cover; }
+    .hero-overlay { position:absolute; inset:0; background: rgba(13,13,13,0.5); }
+    .hero-shapes { position:absolute; inset:0; overflow:hidden; }
+    .shape { position:absolute; border-radius:50%; filter: blur(120px); opacity:0.6; }
+    .shape.a, .shape.b { animation: drift 14s ease-in-out infinite; }
+    .shape.a { width: 500px; height: 500px; background: var(--ochre); top:15%; left:-20%; animation-delay:0s; }
+    .shape.b { width: 350px; height: 350px; background: var(--forest-green); bottom:20%; right:-25%; animation-delay:5s; }
+    @keyframes drift { 0%,100% { transform: translate(0,0) scale(1); } 50% { transform: translate(80px,-50px) scale(1.3); } }
+    .hero-content { position: relative; z-index:2; top:50%; transform:translateY(-50%); text-align:center; padding:0 1rem; }
+    .hero-content h1 { font-family:'Playfair Display', serif; font-size:clamp(2.5rem,8vw,5rem); color:var(--white); opacity:0; }
+    .hero-content p { margin:1rem 0 2rem; font-size:1.1rem; opacity:0; }
+    .hero-content .btn { display:inline-block; padding:1rem 2rem; background:var(--ochre); color:var(--charcoal); border-radius:50px; opacity:0; }
+    /* Sections */
+    main { padding:6rem 2rem; }
+    section { margin-bottom:6rem; opacity:0; transform:translateY(30px); transition: opacity 0.8s ease, transform 0.8s ease; }
+    section.visible { opacity:1; transform:translateY(0); }
+    h2 { font-family:'Playfair Display', serif; font-size:2.8rem; margin-bottom:1rem; text-align:center; }
+    .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:1.5rem; }
+    .card { background:var(--charcoal); padding:1.5rem; border-radius:8px; box-shadow:0 6px 18px rgba(0,0,0,0.5); transition:transform 0.3s ease; }
+    .card:hover { transform:translateY(-12px); }
+    /* Footer */
+    footer { padding:3rem 2rem; text-align:center; background:var(--charcoal); }
+    .social-links a { margin:0 0.5rem; font-size:1.4rem; color:var(--white); text-decoration:none; }
+  </style>
+</head>
+<body>
+  <div id="cursor"></div>
+  <div id="preloader"><div class="spinner"></div></div>
+
+  <header id="header">
+    <div class="logo-container" id="logo-animation"></div>
+    <div class="nav-toggle" onclick="toggleNav()"><span></span><span></span><span></span></div>
+    <nav id="nav"><ul><li><a href="#about">About</a></li><li><a href="#portfolio">Portfolio</a></li><li><a href="#journal">Journal</a></li><li><a href="#collaborate">Collaborate</a></li><li><a href="#contact">Contact</a></li></ul></nav>
+  </header>
+
+  <section class="hero">
+    <video src="assets/hero.mp4" autoplay muted loop playsinline></video>
+    <div class="hero-overlay"></div>
+    <div class="hero-shapes"><div class="shape a"></div><div class="shape b"></div></div>
+    <div class="hero-content">
+      <h1 id="hero-title">Wami Aluko</h1>
+      <p id="hero-sub">Capturing Nigeria’s soul through light, sound, and spirit.</p>
+      <a href="#about" class="btn" id="hero-btn">Discover More</a>
+    </div>
+  </section>
+
+  <main>
+    <section id="about"><h2>About Me</h2><p class="card">Born in Lagos and rooted in Yoruba traditions, I craft immersive stories that resonate globally.</p></section>
+    <section id="portfolio"><h2>Portfolio Highlights</h2><div class="grid"><div class="card"><img src="assets/photo1.jpg" alt="Festival Photo"><p>Festival Portraits</p></div><div class="card"><img src="assets/film1.jpg" alt="Documentary"><p>Documentary Snippets</p></div><div class="card"><img src="assets/write1.jpg" alt="Essay"><p>Cultural Essays</p></div></div></section>
+    <section id="journal"><h2>Journal</h2><div class="grid"><div class="card"><p>Reflection: Water as Muse</p></div><div class="card"><p>Case Study: Lagos Festival</p></div><div class="card"><p>Essay: Myth & Reality</p></div></div></section>
+    <section id="collaborate"><h2>Collaborate</h2><p class="card">Let’s create something unforgettable—photography, film, or writing commissions.</p></section>
+  </main>
+
+  <footer id="contact">
+    <h2>Stay Connected</h2>
+    <p>Subscribe to my ConvertKit newsletter for exclusive insights.</p>
+    <!-- ConvertKit Form -->
+    <script src="https://cdn.convertkit.com/ckforms/v2/ckforms.js"></script>
+    <form class="seva-form" data-uid="YOUR_FORM_ID"></form>
+    <div class="social-links"><a href="https://x.com/Wami_Aluko">X</a><a href="https://instagram.com/Wami_Aluko">IG</a></div>
+    <p>&copy; 2025 Wami Aluko</p>
+  </footer>
+
+  <script>
+    // Custom Cursor
+    const cursor = document.getElementById('cursor');
+    document.addEventListener('mousemove', e => { cursor.style.top = e.clientY + 'px'; cursor.style.left = e.clientX + 'px'; });
+    // Preloader removal
+    window.addEventListener('load', () => document.getElementById('preloader').remove());
+    // Nav toggle & header scroll
+    const app = document.body;
+    function toggleNav() { app.classList.toggle('nav-open'); }
+    window.addEventListener('scroll', () => document.getElementById('header').classList.toggle('scrolled', window.scrollY > 50));
+    // Section reveal
+    document.querySelectorAll('main section').forEach(sec => new IntersectionObserver(([e]) => e.isIntersecting && sec.classList.add('visible'), {threshold:0.2}).observe(sec));
+    // Hero animations via GSAP
+    gsap.from('#hero-title', { opacity:0, y:50, duration:1.2, ease:'power3.out' });
+    gsap.from('#hero-sub', { opacity:0, y:30, duration:1, delay:0.5, ease:'power3.out' });
+    gsap.from('#hero-btn', { opacity:0, scale:0.8, duration:0.8, delay:1, ease:'back.out(1.7)' });
+    // Logo Lottie
+    if (typeof lottie !== 'undefined') {
+      lottie.loadAnimation({ container: document.getElementById('logo-animation'), renderer:'svg', loop:true, autoplay:true, path:'assets/logo-animation.json' });
+    } else {
+      console.error('Lottie library failed to load.');
+    }
+  </script>
+</body>
+</html>
