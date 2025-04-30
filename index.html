@@ -1,285 +1,851 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Course Index</title>
-  <script src="https://cdn.tailwindcss.com"></script>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
-  <style>
-    /* --------- ACTIVE HIGHLIGHTS --------- */
-    .active-page {
-      @apply bg-blue-100 text-blue-800 font-semibold rounded;
-    }
-    .active-summary {
-      @apply text-blue-600 font-semibold; /* course / section summary highlight */
-    }
-    /* custom scrollbar for sidebar */
-    #sidebar::-webkit-scrollbar {
-      width: 6px;
-    }
-    #sidebar::-webkit-scrollbar-track {
-      background: transparent;
-    }
-    #sidebar::-webkit-scrollbar-thumb {
-      background: rgb(199 210 254); /* indigo-200 */
-      border-radius: 3px;
-    }
-  </style>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Course Index</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <style>
+        /* --------- ACTIVE HIGHLIGHTS --------- */
+        .active-page {
+            @apply bg-blue-100 text-blue-800 font-semibold rounded;
+        }
+
+        .active-summary {
+            @apply text-blue-600 font-semibold;
+            /* course / section summary highlight */
+        }
+
+        /* custom scrollbar for sidebar */
+        #sidebar::-webkit-scrollbar {
+            width: 6px;
+        }
+
+        #sidebar::-webkit-scrollbar-track {
+            background: transparent;
+        }
+
+        #sidebar::-webkit-scrollbar-thumb {
+            background: rgb(199 210 254);
+            /* indigo-200 */
+            border-radius: 3px;
+        }
+
+        /* Ensure sidebar takes full height */
+        #sidebar {
+            height: 100vh;
+        }
+    </style>
 </head>
+
 <body class="h-screen flex overflow-hidden bg-gray-50 font-sans antialiased">
-  <!-- Sidebar (left) -->
-  <aside id="sidebar" class="w-72 bg-white border-r overflow-y-auto">
-    <!-- brand / search -->
-    <div class="sticky top-0 z-10 bg-gradient-to-r from-blue-600 to-indigo-700 text-white p-4 shadow">
-      <h1 class="text-lg font-bold tracking-wide">Course Library</h1>
+    <!-- Sidebar (left) -->
+    <aside id="sidebar" class="w-72 bg-white border-r overflow-y-auto">
+        <!-- brand / search -->
+        <div class="sticky top-0 z-10 bg-gradient-to-r from-blue-600 to-indigo-700 text-white p-4 shadow">
+            <h1 class="text-lg font-bold tracking-wide">Course Library</h1>
+        </div>
+        <div class="p-4" id="sidebarContent"></div>
+    </aside>
+
+    <!-- Main content area -->
+    <div class="flex-1 flex flex-col">
+        <!-- Top bar -->
+        <header
+            class="sticky top-0 z-10 bg-white/70 backdrop-blur border-b px-6 py-3 flex items-center justify-between">
+            <h2 id="pageTitle" class="text-lg font-medium text-gray-800 truncate">Select a lesson from the sidebar</h2>
+        </header>
+
+        <!-- iframe -->
+        <iframe id="contentFrame" title="Course Content" class="flex-1 w-full bg-white"></iframe>
+
+        <!-- Navigation bar -->
+        <div class="p-4 bg-gray-100 border-t flex justify-between gap-2">
+            <button id="prevBtn"
+                class="px-4 py-2 rounded border bg-white shadow-sm disabled:opacity-40 disabled:cursor-not-allowed">⬅️
+                Previous</button>
+            <button id="nextBtn"
+                class="px-4 py-2 rounded border bg-white shadow-sm disabled:opacity-40 disabled:cursor-not-allowed">Next
+                ➡️</button>
+        </div>
     </div>
-    <div class="p-4" id="sidebarContent"></div>
-  </aside>
 
-  <!-- Main content area -->
-  <div class="flex-1 flex flex-col">
-    <!-- Top bar -->
-    <header class="sticky top-0 z-10 bg-white/70 backdrop-blur border-b px-6 py-3 flex items-center justify-between">
-      <h2 id="pageTitle" class="text-lg font-medium text-gray-800 truncate">Select a lesson from the sidebar</h2>
-    </header>
+    <script>
+        // ---------- DATA -------------------------------------------
+        const courses = [
+            {
+                title: "AI Fundamentals",
+                sections: [
+                    {
+                        title: "Getting Started",
+                        pages: [
+                            { title: "😃 Welcome", url: "modules/AI/iframes/welcome.html" },
+                            { title: "📚 All About Your Course", url: "modules/AI/iframes/All_About_Your_Course.html" },
+                            { title: "⚡️ A snapshot in time", url: "modules/AI/iframes/A_snapshot_in_time.html" },
+                        ],
+                    },
+                    {
+                        title: "Section 1: What is AI?",
+                        pages: [
+                            { title: "Section 1 Introduction", url: "modules/AI/iframes/Section_1.html" },
+                            { title: "AI in everyday life", url: "modules/AI/iframes/AI_in_everday_life.html" },
+                            { title: "What is intelligence?", url: "modules/AI/iframes/What_is_intelligence.html" },
+                            { title: "Activity: What is intelligence?", url: "modules/AI/iframes/Activity_What_is_intelligence.html" },
+                            { title: "Activity: A scale of intelligence", url: "modules/AI/iframes/Scale_of_intelligence.html" },
+                            { title: "A brief history lesson", url: "modules/AI/iframes/Brief_history_lesson.html" },
+                            { title: "The AI effect", url: "modules/AI/iframes/The_AI_effect.html" },
+                        ],
+                    },
+                    {
+                        title: "Section 2: Types of AI",
+                        pages: [
+                            { title: "Section 2 Introduction", url: "#" },
+                            { title: "What are algorithms?", url: "#" },
+                            { title: "Classical (symbolic) AIs", url: "#" },
+                            { title: "Taking inspiration from nature", url: "#" },
+                            { title: "Neural networks fundamentals", url: "#" },
+                            { title: "The main types of neural networks", url: "#" },
+                            { title: "Neural Networks Drag and Drop", url: "#" },
+                            { title: "Machine learning", url: "#" },
+                            { title: "Section 2 Quiz", url: "#" },
+                            { title: "Section 2 Reflection", url: "#" },
+                        ],
+                    },
+                    {
+                        title: "Section 3: Conversational AI",
+                        pages: [
+                            { title: "Section 3 Introduction", url: "#" },
+                            { title: "Large language models (LLMs)", url: "#" },
+                            { title: "The big three of '23", url: "#" },
+                            { title: "Hallucinations", url: "#" },
+                            { title: "Connected conversational AIs", url: "#" },
+                            { title: "The bootstrap problem", url: "#" },
+                            { title: "Section 3 Quiz", url: "#" },
+                            { title: "Section 3 Reflection", url: "#" },
+                        ],
+                    },
+                    {
+                        title: "Section 4: Prompt Engineering",
+                        pages: [
+                            { title: "Section 4 Introduction", url: "#" },
+                            { title: "Detail and refinement", url: "#" },
+                            { title: "Simulation and simulacra", url: "#" },
+                            { title: "Activity: Simulation and simulacra", url: "#" },
+                            { title: "Who, when, with, what, why?", url: "#" },
+                            { title: "Prompts for learning", url: "#" },
+                            { title: "Image generation", url: "#" },
+                            { title: "What else can an AI generate?", url: "#" },
+                            { title: "Section 4 Quiz", url: "#" },
+                            { title: "Section 4 Reflection", url: "#" },
+                        ],
+                    },
+                    {
+                        title: "Section 5: Society and AI",
+                        pages: [
+                            { title: "Section 5 Introduction", url: "#" },
+                            { title: "Inclusion and accessibility", url: "#" },
+                            { title: "Healthcare, finance and cybersecurity", url: "#" },
+                            { title: "Bias", url: "#" },
+                            { title: "Ethics and Alignment", url: "#" },
+                            { title: "Fake news and deepfakes", url: "#" },
+                            { title: "Safety and responsibility", url: "#" },
+                            { title: "Section 5 Quiz", url: "#" },
+                            { title: "Section 5 Reflection", url: "#" },
+                        ],
+                    },
+                    {
+                        title: "Section 6: The Future of AI",
+                        pages: [
+                            { title: "Section 6 Introduction", url: "#" },
+                            { title: "Where are we on the sigmoid curve?", url: "#" },
+                            { title: "Jobs and intellectual property", url: "#" },
+                            { title: "Artificial general intelligence (AGI)", url: "#" },
+                            { title: "Existential threat!?", url: "#" },
+                            { title: "It all comes down to this...", url: "#" },
+                            { title: "Section 6 Quiz", url: "#" },
+                            { title: "Section 6 Reflection", url: "#" },
+                        ],
+                    },
+                ],
+            },
+            {
+                title: "Applying for University",
+                sections: [
+                    {
+                        title: "Getting Started",
+                        pages: [
+                            { title: "😃 Welcome", url: "#" },
+                            { title: "📚 All About Your Course", url: "#" },
+                        ],
+                    },
+                    {
+                        title: "Section 1: Planning your Application",
+                        pages: [
+                            { title: "What's in this Section?", url: "#" },
+                            { title: "Your Timeline", url: "#" },
+                            { title: "Managing your Time", url: "#" },
+                            { title: "Identifying your Values", url: "#" },
+                            { title: "Funding for University", url: "#" },
+                            { title: "Your University Application", url: "#" },
+                            { title: "Reflect on your Learning", url: "#" },
+                            { title: "End of Section", url: "#" },
+                            { title: "Section 1 Student Feedback", url: "#" },
+                        ],
+                    },
+                    {
+                        title: "Section 2: Choosing your Subject",
+                        pages: [
+                            { title: "What's in this Section?", url: "#" },
+                            { title: "Choosing your Subject 1", url: "#" },
+                            { title: "Undiscovered Subjects", url: "#" },
+                            { title: "Researching Courses", url: "#" },
+                            { title: "Choosing your Subject 2", url: "#" },
+                            { title: "Your University Application", url: "#" },
+                            { title: "Reflect on your Learning", url: "#" },
+                            { title: "End of Section", url: "#" },
+                            { title: "Section 2 Student Feedback", url: "#" },
+                        ],
+                    },
+                    {
+                        title: "Section 3: Choosing Universities",
+                        pages: [
+                            { title: "What's in this Section?", url: "#" },
+                            { title: "Other English-speaking Universities", url: "#" },
+                            { title: "Dispelling Myths", url: "#" },
+                            { title: "Different Types of UK University", url: "#" },
+                            { title: "Choosing your University", url: "#" },
+                            { title: "Your University Application", url: "#" },
+                            { title: "Reflect on your Learning", url: "#" },
+                            { title: "End of Course Summary", url: "#" },
+                            { title: "Section 3 Student Feedback", url: "#" },
+                        ],
+                    },
+                    {
+                        title: "End of Course Assessment Test",
+                        pages: [
+                            { title: "End of Course Assessment Test", url: "#" },
+                        ],
+                    },
+                    {
+                        title: "Summing up",
+                        pages: [
+                            { title: "Understanding SMART Objectives", url: "#" },
+                            { title: "Your Personal Development", url: "#" },
+                        ],
+                    },
+                ],
+            },
+            {
+                title: "Coding Games with Python",
+                sections: [
+                    {
+                        title: "Getting Started",
+                        pages: [
+                            { title: "😃 Welcome", url: "#" },
+                            { title: "📚 All About Your Course", url: "#" },
+                            { title: "✅ Check your Coding skills", url: "#" },
+                            { title: "🏆 Course Achievements", url: "#" },
+                        ],
+                    },
+                    {
+                        title: "Section 1: What is Python?",
+                        pages: [
+                            { title: "Section 1 Introduction", url: "#" },
+                            { title: "Python Concepts", url: "#" },
+                            { title: "Scoolcode Introduction", url: "#" },
+                        ],
+                    },
+                    {
+                        title: "Coding Task",
+                        pages: [
+                            { title: "Coding task introduction", url: "#" },
+                        ],
+                    },
+                    {
+                        title: "Section 1 Quiz",
+                        pages: [
+                            { title: "Section 1 Quiz", url: "#" },
+                        ],
+                    },
+                    {
+                        title: "Section 1 Reflection",
+                        pages: [
+                            { title: "Section 1 Reflection", url: "#" },
+                        ],
+                    },
+                    {
+                        title: "Section 1 Summary",
+                        pages: [
+                            { title: "Section 1 Summary", url: "#" },
+                        ],
+                    },
+                    {
+                        title: "Extension: Sandbox mode",
+                        pages: [
+                            { title: "Introducing Sandbox mode", url: "#" },
+                        ],
+                    },
+                    {
+                        title: "Section 2: Conditionals",
+                        pages: [
+                            { title: "Section 2 Introduction", url: "#" },
+                            { title: "Algorithms", url: "#" },
+                        ],
+                    },
+                    {
+                        title: "Coding Task",
+                        pages: [
+                            { title: "Coding task introduction", url: "#" },
+                        ],
+                    },
+                    {
+                        title: "Section 2 Quiz",
+                        pages: [
+                            { title: "Section 2 Quiz", url: "#" },
+                        ],
+                    },
+                    {
+                        title: "Section 2 Reflection",
+                        pages: [
+                            { title: "Section 2 Reflection", url: "#" },
+                        ],
+                    },
+                    {
+                        title: "Section 2 Summary",
+                        pages: [
+                            { title: "Section 2 Summary", url: "#" },
+                        ],
+                    },
+                    {
+                        title: "Extension: Sandbox mode",
+                        pages: [
+                            { title: "Introducing Sandbox mode", url: "#" },
+                        ],
+                    },
+                    {
+                        title: "Section 3: 'For' Loops",
+                        pages: [
+                            { title: "Section 3 Introduction", url: "#" },
+                        ],
+                    },
+                    {
+                        title: "Coding Task",
+                        pages: [
+                            { title: "Coding task introduction", url: "#" },
+                        ],
+                    },
+                    {
+                        title: "Section 3 Quiz",
+                        pages: [
+                            { title: "Section 3 Quiz", url: "#" },
+                        ],
+                    },
+                    {
+                        title: "Section 3 Reflection",
+                        pages: [
+                            { title: "Section 3 Reflection", url: "#" },
+                        ],
+                    },
+                    {
+                        title: "Section 3 Summary",
+                        pages: [
+                            { title: "Section 3 Summary", url: "#" },
+                        ],
+                    },
+                    {
+                        title: "Extension: Sandbox mode",
+                        pages: [
+                            { title: "Introducing Sandbox mode", url: "#" },
+                        ],
+                    },
+                    {
+                        title: "Section 4: 'While' Loops",
+                        pages: [
+                            { title: "Section 4 Introduction", url: "#" },
+                        ],
+                    },
+                    {
+                        title: "Coding Task 1",
+                        pages: [
+                            { title: "Coding task introduction", url: "#" },
+                        ],
+                    },
+                    {
+                        title: "Coding Task 2",
+                        pages: [
+                            { title: "Coding task introduction", url: "#" },
+                        ],
+                    },
+                    {
+                        title: "Section 4 Quiz",
+                        pages: [
+                            { title: "Section 4 Quiz", url: "#" },
+                        ],
+                    },
+                    {
+                        title: "Section 4 Reflection",
+                        pages: [
+                            { title: "Section 4 Reflection", url: "#" },
+                        ],
+                    },
+                    {
+                        title: "Section 4 Summary",
+                        pages: [
+                            { title: "Section 4 Summary", url: "#" },
+                        ],
+                    },
+                    {
+                        title: "Extension: Sandbox mode",
+                        pages: [
+                            { title: "Introducing Sandbox mode", url: "#" },
+                        ],
+                    },
+                    {
+                        title: "Section 5: Variables",
+                        pages: [
+                            { title: "Section 5 Introduction", url: "#" },
+                        ],
+                    },
+                    {
+                        title: "Coding Task",
+                        pages: [
+                            { title: "Coding task introduction", url: "#" },
+                        ],
+                    },
+                    {
+                        title: "Section 5 Quiz",
+                        pages: [
+                            { title: "Section 5 Quiz", url: "#" },
+                        ],
+                    },
+                    {
+                        title: "Section 5 Reflection",
+                        pages: [
+                            { title: "Section 5 Reflection", url: "#" },
+                        ],
+                    },
+                    {
+                        title: "Section 5 Summary",
+                        pages: [
+                            { title: "Section 5 Summary", url: "#" },
+                        ],
+                    },
+                    {
+                        title: "Extension: Sandbox mode",
+                        pages: [
+                            { title: "Introducing Sandbox mode", url: "#" },
+                        ],
+                    },
+                    {
+                        title: "Section 6: Python and AI",
+                        pages: [
+                            { title: "Section 6 Introduction", url: "#" },
+                            { title: "Basic AI concepts", url: "#" },
+                        ],
+                    },
+                    {
+                        title: "Coding Task",
+                        pages: [
+                            { title: "Coding task introduction", url: "#" },
+                        ],
+                    },
+                    {
+                        title: "Section 6 Quiz",
+                        pages: [
+                            { title: "Section 6 Quiz", url: "#" },
+                        ],
+                    },
+                    {
+                        title: "Section 6 Reflection",
+                        pages: [
+                            { title: "Section 6 Reflection", url: "#" },
+                        ],
+                    },
+                    {
+                        title: "Check your skills again",
+                        pages: [
+                            { title: "Check your skills again", url: "#" },
+                        ],
+                    },
+                    {
+                        title: "Course Summary",
+                        pages: [
+                            { title: "Course Summary", url: "#" },
+                            { title: "Your Course Certificate", url: "#" },
+                        ],
+                    },
+                    {
+                        title: "Extension: Sandbox mode",
+                        pages: [
+                            { title: "Introducing Sandbox mode", url: "#" },
+                        ],
+                    },
+                ],
+            },
+            {
+                title: "Creative Problem Solving",
+                sections: [
+                    {
+                        title: "Getting Started",
+                        pages: [
+                            { title: "😃 Welcome", url: "#" },
+                            { title: "📚 All About Your Course", url: "#" },
+                            { title: "✅ Check your Creative Problem Solving skills", url: "#" },
+                        ],
+                    },
+                    {
+                        title: "Section 1: Exploring and Investigating",
+                        pages: [
+                            { title: "Course Director's Introduction", url: "#" },
+                            { title: "Word Cloud Task", url: "#" },
+                            { title: "Viewing Task", url: "#" },
+                            { title: "Interactive Reading Task", url: "#" },
+                            { title: "Practice Task", url: "#" },
+                            { title: "Review Task", url: "#" },
+                            { title: "Personalisation Task", url: "#" },
+                            { title: "Your Creative Solution", url: "#" },
+                            { title: "Reflect on Your Learning", url: "#" },
+                            { title: "Course Director's Summary", url: "#" },
+                            { title: "Section 1 Student Feedback", url: "#" },
+                        ],
+                    },
+                    {
+                        title: "Section 2: Generating Ideas",
+                        pages: [
+                            { title: "Course Director's Introduction", url: "#" },
+                            { title: "Viewing Task 1", url: "#" },
+                            { title: "Viewing Task 2", url: "#" },
+                            { title: "Practice Task 1", url: "#" },
+                            { title: "Practice Task 2", url: "#" },
+                            { title: "Viewing Task", url: "#" },
+                            { title: "Practice Task", url: "#" },
+                            { title: "Review Task", url: "#" },
+                            { title: "Your Creative Solution", url: "#" },
+                            { title: "Reflect on Your Learning", url: "#" },
+                            { title: "Course Director's Summary", url: "#" },
+                            { title: "Section 2 Student Feedback", url: "#" },
+                        ],
+                    },
+                    {
+                        title: "Section 3: Crafting and Improving",
+                        pages: [
+                            { title: "Course Director's Introduction", url: "#" },
+                            { title: "Viewing Task", url: "#" },
+                            { title: "Practice Task", url: "#" },
+                            { title: "Listening Task", url: "#" },
+                            { title: "Interactive Reading Task", url: "#" },
+                            { title: "Review Task", url: "#" },
+                            { title: "Empathy", url: "#" },
+                            { title: "Your Creative Solution", url: "#" },
+                            { title: "Refining Ideas", url: "#" },
+                            { title: "Course Director's Summary", url: "#" },
+                            { title: "Section 3 Student Feedback", url: "#" },
+                        ],
+                    },
+                    {
+                        title: "Section 4: Being Persistent",
+                        pages: [
+                            { title: "Course Director's Introduction", url: "#" },
+                            { title: "Reflection Task", url: "#" },
+                            { title: "Viewing Task", url: "#" },
+                            { title: "Review Task", url: "#" },
+                            { title: "Interactive Reading Task", url: "#" },
+                            { title: "Journal Task", url: "#" },
+                            { title: "Practice Task", url: "#" },
+                            { title: "Your Creative Solution", url: "#" },
+                            { title: "Reflect on Your Learning", url: "#" },
+                            { title: "Course Director's Summary", url: "#" },
+                            { title: "Section 4 Student Feedback", url: "#" },
+                        ],
+                    },
+                    {
+                        title: "Section 5: Sharing Ideas",
+                        pages: [
+                            { title: "Course Director's Introduction", url: "#" },
+                            { title: "Viewing Task", url: "#" },
+                            { title: "Practice Task", url: "#" },
+                            { title: "Interactive Reading Task", url: "#" },
+                            { title: "Practice Task 1", url: "#" },
+                            { title: "Practice Task 2", url: "#" },
+                            { title: "Review Task", url: "#" },
+                            { title: "Survey Task", url: "#" },
+                            { title: "Your Creative Solution", url: "#" },
+                            { title: "Reflect on Your Learning", url: "#" },
+                            { title: "Course Director's Summary", url: "#" },
+                            { title: "Section 5 Student Feedback", url: "#" },
+                        ],
+                    },
+                    {
+                        title: "Section 6: Reflecting Critically",
+                        pages: [
+                            { title: "Course Director's Introduction", url: "#" },
+                            { title: "Viewing Task", url: "#" },
+                            { title: "Review Task", url: "#" },
+                            { title: "Your Challenges", url: "#" },
+                            { title: "Analysing the Creative Process", url: "#" },
+                            { title: "Your Creative Solution", url: "#" },
+                            { title: "Course Director's Summary", url: "#" },
+                            { title: "Section 6 Student Feedback", url: "#" },
+                        ],
+                    },
+                    {
+                        title: "End of Course Assessment",
+                        pages: [
+                            { title: "End of Course Assessment", url: "#" },
+                        ],
+                    },
+                    {
+                        title: "Summing Up",
+                        pages: [
+                            { title: "Understanding SMART Objectives", url: "#" },
+                            { title: "Your Personal Development Plan", url: "#" },
+                            { title: "Course Director's Summary", url: "#" },
+                            { title: "Course Certificate", url: "#" },
+                        ],
+                    },
+                    {
+                        title: "Journal",
+                        pages: [
+                            { title: "Journal", url: "#" },
+                        ],
+                    },
+                    {
+                        title: "Resources",
+                        pages: [
+                            { title: "Resources", url: "#" },
+                        ],
+                    },
+                ],
+            },
+            {
+                title: "CV Writing",
+                sections: [
+                    {
+                        title: "Getting Started",
+                        pages: [
+                            { title: "😃 Welcome", url: "#" },
+                            { title: "📚 All About Your Course", url: "#" },
+                            { title: "✅ Check your CV Writing skills", url: "#" },
+                        ],
+                    },
+                    {
+                        title: "Section 1: Understanding CVs",
+                        pages: [
+                            { title: "Course Director's Introduction", url: "#" },
+                            { title: "Viewing Task", url: "#" },
+                            { title: "Reflection Task", url: "#" },
+                            { title: "Interactive Reading Task", url: "#" },
+                            { title: "Review Task", url: "#" },
+                            { title: "The Employer's Perspective", url: "#" },
+                            { title: "Reflect on Your Learning", url: "#" },
+                            { title: "End of Section", url: "#" },
+                            { title: "Section 1 Student Feedback", url: "#" },
+                        ],
+                    },
+                    {
+                        title: "Section 2: Starting Your CV",
+                        pages: [
+                            { title: "What's in this Section?", url: "#" },
+                            { title: "Interactive Reading Task", url: "#" },
+                            { title: "Practice Task", url: "#" },
+                            { title: "Refining your 'You List'", url: "#" },
+                            { title: "Review Task", url: "#" },
+                            { title: "Viewing Task", url: "#" },
+                            { title: "Practice Task 1", url: "#" },
+                            { title: "Practice Task 2", url: "#" },
+                            { title: "Reflect on Your Learning", url: "#" },
+                            { title: "End of Section", url: "#" },
+                            { title: "Section 2 Student Feedback", url: "#" },
+                        ],
+                    },
+                    {
+                        title: "Section 3: Ordering and Formatting",
+                        pages: [
+                            { title: "What's in this Section?", url: "#" },
+                            { title: "Practice Task (Part 1)", url: "#" },
+                            { title: "Practice Task (Part 2)", url: "#" },
+                            { title: "Review Task", url: "#" },
+                            { title: "Interactive Reading Task", url: "#" },
+                            { title: "Reflection Task", url: "#" },
+                            { title: "What to Include", url: "#" },
+                            { title: "Viewing Task", url: "#" },
+                            { title: "Practice Task", url: "#" },
+                            { title: "Reflect on Your Learning", url: "#" },
+                            { title: "End of Section", url: "#" },
+                            { title: "Section 3 Student Feedback", url: "#" },
+                        ],
+                    },
+                    {
+                        title: "Section 4: Tailoring Your CV",
+                        pages: [
+                            { title: "What's in this Section?", url: "#" },
+                            { title: "Viewing Task", url: "#" },
+                            { title: "Practice Task 1", url: "#" },
+                            { title: "Practice Task 2", url: "#" },
+                            { title: "Practice Task", url: "#" },
+                            { title: "Reflection Task", url: "#" },
+                            { title: "Checking Your CV 1", url: "#" },
+                            { title: "Interactive Reading Task", url: "#" },
+                            { title: "Reflect on Your Learning", url: "#" },
+                            { title: "End of Section", url: "#" },
+                            { title: "Section 4 Student Feedback", url: "#" },
+                        ],
+                    },
+                    {
+                        title: "Section 5: Writing a Cover Letter",
+                        pages: [
+                            { title: "What's in this Section?", url: "#" },
+                            { title: "Viewing Task", url: "#" },
+                            { title: "Interactive Reading Task", url: "#" },
+                            { title: "Practice Task (Part 1)", url: "#" },
+                            { title: "Practice Task (Part 3)", url: "#" },
+                            { title: "Survey Task", url: "#" },
+                            { title: "Reflection Task", url: "#" },
+                            { title: "Reading Task", url: "#" },
+                            { title: "Practice Task", url: "#" },
+                            { title: "Avoiding Clichés", url: "#" },
+                            { title: "Reflect on Your Learning", url: "#" },
+                            { title: "End of Section", url: "#" },
+                            { title: "Section 5 Student Feedback", url: "#" },
+                        ],
+                    },
+                    {
+                        title: "Section 6: Advertising Your CV",
+                        pages: [
+                            { title: "What's in this Section?", url: "#" },
+                            { title: "Reading Task", url: "#" },
+                            { title: "Practice Task", url: "#" },
+                            { title: "Interactive Reading Task", url: "#" },
+                            { title: "Final check of Your CV", url: "#" },
+                            { title: "Reflect on Your Learning", url: "#" },
+                            { title: "End of Course Assessment Test", url: "#" },
+                            { title: "Section 6 Student Feedback", url: "#" },
+                        ],
+                    },
+                ],
+            },
+            { title: "Entrepreneurship", sections: [] },
+            { title: "Job Interview Skills", sections: [] },
+            { title: "Making an Impact", sections: [] },
+            { title: "Personal Statement Writing", sections: [] },
+            { title: "Preparing for BMAT", sections: [] },
+            { title: "Preparing for LNAT", sections: [] },
+            { title: "Preparing for TSA", sections: [] },
+            { title: "Public Speaking", sections: [] },
+            { title: "Resilience", sections: [] },
+            { title: "Study Skills", sections: [] },
+            { title: "University Interview Skills", sections: [] },
+            { title: "Verbal Communication", sections: [] },
+            { title: "Writing Skills", sections: [] },
+        ];
 
-    <!-- iframe -->
-    <iframe id="contentFrame" title="Course Content" class="flex-1 w-full bg-white"></iframe>
+        // ---------- STATE ------------------------------------------
+        let currentCourseIdx = null;
+        let currentPageIdx = null;
+        let flatPages = [];
 
-    <!-- Navigation bar -->
-    <div class="p-4 bg-gray-100 border-t flex justify-between gap-2">
-      <button id="prevBtn" class="px-4 py-2 rounded border bg-white shadow-sm disabled:opacity-40 disabled:cursor-not-allowed">⬅️ Previous</button>
-      <button id="nextBtn" class="px-4 py-2 rounded border bg-white shadow-sm disabled:opacity-40 disabled:cursor-not-allowed">Next ➡️</button>
-    </div>
-  </div>
+        // ---------- DOM BUILDING -----------------------------------
+        const sidebarContent = document.getElementById("sidebarContent");
 
-  <script>
-    // ---------- DATA -------------------------------------------
-    const courses = [
-      {
-        title: "AI Fundamentals",
-        sections: [
-          {
-            title: "Getting Started",
-            pages: [
-              { title: "😃 Welcome", url: "modules/AI/iframes/welcome.html" },
-              { title: "📚 All About Your Course", url: "modules/AI/iframes/All_About_Your_Course.html" },
-              { title: "⚡️ A snapshot in time", url: "modlues/AI/iframes/A_snapshot_in_time.html" },
-            ],
-          },
-          {
-            title: "Section 1: What is AI?",
-            pages: [
-              { title: "Section 1 Introduction", url: "modules/AI/iframes/Section_1.html" },
-              { title: "AI in everyday life", url: "modules/AI/iframes/AI_in_everday_life.html" },
-              { title: "What is intelligence?", url: "modules/AI/iframes/What_is_intelligence.html" },
-              { title: "Activity: What is intelligence?", url: "modules/AI/iframes/Activity_What_is_intelligence.html" },
-              { title: "Activity: A scale of intelligence", url: "modules/AI/iframes/Scale_of_intelligence.html" },
-              { title: "A brief history lesson", url: "modules/AI/iframes/Brief_history_lesson.html" },
-              { title: "The AI effect", url: "modules/AI/iframes/The_AI_effect.html" },
-            ],
-          },
-          {
-            title: "Section 2: Types of AI",
-            pages: [
-              { title: "Section 2 Introduction", url: "#" },
-              { title: "What are algorithms?", url: "#" },
-              { title: "Classical (symbolic) AIs", url: "#" },
-              { title: "Taking inspiration from nature", url: "#" },
-              { title: "Neural networks fundamentals", url: "#" },
-              { title: "The main types of neural networks", url: "#" },
-              { title: "Neural Networks Drag and Drop", url: "#" },
-              { title: "Machine learning", url: "#" },
-              { title: "Section 2 Quiz", url: "#" },
-              { title: "Section 2 Reflection", url: "#" },
-            ],
-          },
-          {
-            title: "Section 3: Conversational AI",
-            pages: [
-              { title: "Section 3 Introduction", url: "#" },
-              { title: "Large language models (LLMs)", url: "#" },
-              { title: "The big three of '23", url: "#" },
-              { title: "Hallucinations", url: "#" },
-              { title: "Connected conversational AIs", url: "#" },
-              { title: "The bootstrap problem", url: "#" },
-              { title: "Section 3 Quiz", url: "#" },
-              { title: "Section 3 Reflection", url: "#" },
-            ],
-          },
-          {
-            title: "Section 4: Prompt Engineering",
-            pages: [
-              { title: "Section 4 Introduction", url: "#" },
-              { title: "Detail and refinement", url: "#" },
-              { title: "Simulation and simulacra", url: "#" },
-              { title: "Activity: Simulation and simulacra", url: "#" },
-              { title: "Who, when, with, what, why?", url: "#" },
-              { title: "Prompts for learning", url: "#" },
-              { title: "Image generation", url: "#" },
-              { title: "What else can an AI generate?", url: "#" },
-              { title: "Section 4 Quiz", url: "#" },
-              { title: "Section 4 Reflection", url: "#" },
-            ],
-          },
-          {
-            title: "Section 5: Society and AI",
-            pages: [
-              { title: "Section 5 Introduction", url: "#" },
-              { title: "Inclusion and accessibility", url: "#" },
-              { title: "Healthcare, finance and cybersecurity", url: "#" },
-              { title: "Bias", url: "#" },
-              { title: "Ethics and Alignment", url: "#" },
-              { title: "Fake news and deepfakes", url: "#" },
-              { title: "Safety and responsibility", url: "#" },
-              { title: "Section 5 Quiz", url: "#" },
-              { title: "Section 5 Reflection", url: "#" },
-            ],
-          },
-          {
-            title: "Section 6: The Future of AI",
-            pages: [
-              { title: "Section 6 Introduction", url: "#" },
-              { title: "Where are we on the sigmoid curve?", url: "#" },
-              { title: "Jobs and intellectual property", url: "#" },
-              { title: "Artificial general intelligence (AGI)", url: "#" },
-              { title: "Existential threat!?", url: "#" },
-              { title: "It all comes down to this...", url: "#" },
-              { title: "Section 6 Quiz", url: "#" },
-              { title: "Section 6 Reflection", url: "#" },
-            ],
-          },
-        ],
-      },
-      { title: "Applying for University", sections: [] },
-      { title: "Coding Games with Python", sections: [] },
-      { title: "Creative Problem Solving", sections: [] },
-      { title: "CV Writing", sections: [] },
-      { title: "Entrepreneurship", sections: [] },
-      { title: "Job Interview Skills", sections: [] },
-      { title: "Making an Impact", sections: [] },
-      { title: "Personal Statement Writing", sections: [] },
-      { title: "Preparing for BMAT", sections: [] },
-      { title: "Preparing for LNAT", sections: [] },
-      { title: "Preparing for TSA", sections: [] },
-      { title: "Public Speaking", sections: [] },
-      { title: "Resilience", sections: [] },
-      { title: "Study Skills", sections: [] },
-      { title: "University Interview Skills", sections: [] },
-      { title: "Verbal Communication", sections: [] },
-      { title: "Writing Skills", sections: [] },
-    ];
+        function buildSidebar() {
+            courses.forEach((course, cIdx) => {
+                const courseDetails = document.createElement("details");
+                courseDetails.className = "mb-2 group";
 
-    // ---------- STATE ------------------------------------------
-    let currentCourseIdx = null;
-    let currentPageIdx = null;
-    let flatPages = [];
+                const courseSummary = document.createElement("summary");
+                courseSummary.className = "font-semibold cursor-pointer flex justify-between items-center text-gray-800 hover:text-blue-600";
+                courseSummary.innerHTML = `${course.title} <span class="transition-transform group-open:rotate-180">▾</span>`;
+                courseDetails.appendChild(courseSummary);
 
-    // ---------- DOM BUILDING -----------------------------------
-    const sidebarContent = document.getElementById("sidebarContent");
+                course.sections.forEach((section, sIdx) => {
+                    const sectionDetails = document.createElement("details");
+                    sectionDetails.className = "ml-4 mt-1 mb-1 group";
 
-    function buildSidebar() {
-      courses.forEach((course, cIdx) => {
-        const courseDetails = document.createElement("details");
-        courseDetails.className = "mb-2 group";
+                    const sectionSummary = document.createElement("summary");
+                    sectionSummary.className = "cursor-pointer flex justify-between items-center text-sm text-gray-600 hover:text-blue-600";
+                    sectionSummary.innerHTML = `${section.title} <span class="transition-transform group-open:rotate-180">▾</span>`;
+                    sectionDetails.appendChild(sectionSummary);
 
-        const courseSummary = document.createElement("summary");
-        courseSummary.className = "font-semibold cursor-pointer flex justify-between items-center text-gray-800 hover:text-blue-600";
-        courseSummary.innerHTML = `${course.title} <span class="transition-transform group-open:rotate-180">▾</span>`;
-        courseDetails.appendChild(courseSummary);
+                    const ul = document.createElement("ul");
+                    ul.className = "list-disc ml-6 mt-1 space-y-1 text-sm";
 
-        course.sections.forEach((section, sIdx) => {
-          const sectionDetails = document.createElement("details");
-          sectionDetails.className = "ml-4 mt-1 mb-1 group";
+                    section.pages.forEach((page, pIdx) => {
+                        const li = document.createElement("li");
+                        const btn = document.createElement("button");
+                        btn.textContent = page.title;
+                        btn.className = "text-left hover:underline text-gray-700 w-full";
+                        btn.addEventListener("click", () => selectPage(cIdx, getFlatPageIndex(course, sIdx, pIdx)));
+                        li.appendChild(btn);
+                        ul.appendChild(li);
+                    });
+                    sectionDetails.appendChild(ul);
+                    courseDetails.appendChild(sectionDetails);
+                });
 
-          const sectionSummary = document.createElement("summary");
-          sectionSummary.className = "cursor-pointer flex justify-between items-center text-sm text-gray-600 hover:text-blue-600";
-          sectionSummary.innerHTML = `${section.title} <span class="transition-transform group-open:rotate-180">▾</span>`;
-          sectionDetails.appendChild(sectionSummary);
+                sidebarContent.appendChild(courseDetails);
+            });
+        }
 
-          const ul = document.createElement("ul");
-          ul.className = "list-disc ml-6 mt-1 space-y-1 text-sm";
+        function getFlatPageIndex(course, sectionIdx, pageIdx) {
+            let index = 0;
+            course.sections.forEach((sec, s) => {
+                if (s < sectionIdx) index += sec.pages.length;
+            });
+            return index + pageIdx;
+        }
 
-          section.pages.forEach((page, pIdx) => {
-            const li = document.createElement("li");
-            const btn = document.createElement("button");
-            btn.textContent = page.title;
-            btn.className = "text-left hover:underline text-gray-700 w-full"
-            btn.addEventListener("click", () => selectPage(cIdx, getFlatPageIndex(course, sIdx, pIdx)));
-            li.appendChild(btn);
-            ul.appendChild(li);
-          });
-          sectionDetails.appendChild(ul);
-          courseDetails.appendChild(sectionDetails);
+        // ---------- PAGE SELECTION & NAV ----------------------------
+        const frame = document.getElementById("contentFrame");
+        const prevBtn = document.getElementById("prevBtn");
+        const nextBtn = document.getElementById("nextBtn");
+        const pageTitle = document.getElementById("pageTitle");
+
+        function selectPage(courseIdx, pageIdx) {
+            if (courseIdx !== currentCourseIdx) {
+                currentCourseIdx = courseIdx;
+                flatPages = courses[courseIdx].sections.flatMap(sec => sec.pages);
+            }
+            currentPageIdx = pageIdx;
+            const page = flatPages[pageIdx];
+            frame.src = page.url;
+            pageTitle.textContent = page.title;
+            updateNav();
+            highlightActive(page.title);
+        }
+
+        function updateNav() {
+            prevBtn.disabled = currentPageIdx <= 0;
+            nextBtn.disabled = currentPageIdx >= flatPages.length - 1;
+        }
+
+        function highlightActive(title) {
+            document.querySelectorAll(".active-page").forEach(el => el.classList.remove("active-page"));
+            document.querySelectorAll(".active-summary").forEach(el => el.classList.remove("active-summary"));
+
+            const btn = [...sidebarContent.querySelectorAll("button")].find(b => b.textContent === title);
+            if (btn) btn.classList.add("active-page");
+
+            let el = btn.parentElement;
+            while (el && el.tagName !== "ASIDE") {
+                if (el.tagName === "SUMMARY") el.classList.add("active-summary");
+                el = el.parentElement;
+            }
+        }
+
+        prevBtn.addEventListener("click", () => {
+            if (currentPageIdx > 0) selectPage(currentCourseIdx, currentPageIdx - 1);
         });
 
-        sidebarContent.appendChild(courseDetails);
-      });
-    }
+        nextBtn.addEventListener("click", () => {
+            if (currentPageIdx < flatPages.length - 1) selectPage(currentCourseIdx, currentPageIdx + 1);
+        });
 
-    function getFlatPageIndex(course, sectionIdx, pageIdx) {
-      let index = 0;
-      course.sections.forEach((sec, s) => {
-        if (s < sectionIdx) index += sec.pages.length;
-      });
-      return index + pageIdx;
-    }
-
-    // ---------- PAGE SELECTION & NAV ----------------------------
-    const frame = document.getElementById("contentFrame");
-    const prevBtn = document.getElementById("prevBtn");
-    const nextBtn = document.getElementById("nextBtn");
-    const pageTitle = document.getElementById("pageTitle");
-
-    function selectPage(courseIdx, pageIdx) {
-      if (courseIdx !== currentCourseIdx) {
-        currentCourseIdx = courseIdx;
-        flatPages = courses[courseIdx].sections.flatMap(sec => sec.pages);
-      }
-      currentPageIdx = pageIdx;
-      const page = flatPages[pageIdx];
-      frame.src = page.url;
-      pageTitle.textContent = page.title;
-      updateNav();
-      highlightActive(page.title);
-    }
-
-    function updateNav() {
-      prevBtn.disabled = currentPageIdx <= 0;
-      nextBtn.disabled = currentPageIdx >= flatPages.length - 1;
-    }
-
-    function highlightActive(title) {
-      // remove previous highlights and summary highlights
-      document.querySelectorAll(".active-page").forEach(el => el.classList.remove("active-page"));
-      document.querySelectorAll(".active-summary").forEach(el => el.classList.remove("active-summary"));
-
-      // highlight button
-      const btn = [...sidebarContent.querySelectorAll("button")].find(b => b.textContent === title);
-      if (btn) btn.classList.add("active-page");
-
-      // also highlight its parent summaries
-      let el = btn.parentElement;
-      while (el && el.tagName !== "ASIDE") {
-        if (el.tagName === "SUMMARY") el.classList.add("active-summary");
-        el = el.parentElement;
-      }
-    }
-
-    prevBtn.addEventListener("click", () => {
-      if (currentPageIdx > 0) selectPage(currentCourseIdx, currentPageIdx - 1);
-    });
-
-    nextBtn.addEventListener("click", () => {
-      if (currentPageIdx < flatPages.length - 1) selectPage(currentCourseIdx, currentPageIdx + 1);
-    });
-
-    // INIT ----------------------------------------------------------------
-    buildSidebar();
-    // auto-open first course for better UX
-    const firstCourseDetails = sidebarContent.querySelector("details");
-    firstCourseDetails.setAttribute("open", "");
-  </script>
+        // INIT ----------------------------------------------------------------
+        buildSidebar();
+        sidebarContent.querySelector("details")?.setAttribute("open", "");
+    </script>
 </body>
+
 </html>
