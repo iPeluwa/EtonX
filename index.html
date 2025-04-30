@@ -1,199 +1,285 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AI Course</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <style>
-        .collapse-toggle { display: none; }
-        .collapse-toggle:checked ~ .collapse-content { max-height: 1000px; opacity: 1; }
-        .collapse-toggle:checked ~ .collapse-label .fa-chevron-down { transform: rotate(180deg); }
-        .collapse-content { max-height: 0; opacity: 0; overflow: hidden; transition: all 0.3s ease; }
-        .collapse-label { cursor: pointer; }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Course Index</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <style>
+    /* --------- ACTIVE HIGHLIGHTS --------- */
+    .active-page {
+      @apply bg-blue-100 text-blue-800 font-semibold rounded;
+    }
+    .active-summary {
+      @apply text-blue-600 font-semibold; /* course / section summary highlight */
+    }
+    /* custom scrollbar for sidebar */
+    #sidebar::-webkit-scrollbar {
+      width: 6px;
+    }
+    #sidebar::-webkit-scrollbar-track {
+      background: transparent;
+    }
+    #sidebar::-webkit-scrollbar-thumb {
+      background: rgb(199 210 254); /* indigo-200 */
+      border-radius: 3px;
+    }
+  </style>
 </head>
-<body class="bg-gray-50 font-sans antialiased">
-    <header class="bg-gradient-to-r from-blue-600 to-blue-700 text-white p-6 shadow-lg">
-        <h1 class="text-4xl font-bold tracking-tight">AI Course</h1>
+<body class="h-screen flex overflow-hidden bg-gray-50 font-sans antialiased">
+  <!-- Sidebar (left) -->
+  <aside id="sidebar" class="w-72 bg-white border-r overflow-y-auto">
+    <!-- brand / search -->
+    <div class="sticky top-0 z-10 bg-gradient-to-r from-blue-600 to-indigo-700 text-white p-4 shadow">
+      <h1 class="text-lg font-bold tracking-wide">Course Library</h1>
+    </div>
+    <div class="p-4" id="sidebarContent"></div>
+  </aside>
+
+  <!-- Main content area -->
+  <div class="flex-1 flex flex-col">
+    <!-- Top bar -->
+    <header class="sticky top-0 z-10 bg-white/70 backdrop-blur border-b px-6 py-3 flex items-center justify-between">
+      <h2 id="pageTitle" class="text-lg font-medium text-gray-800 truncate">Select a lesson from the sidebar</h2>
     </header>
-    <nav class="bg-white p-4 shadow-sm">
-        <ul class="flex space-x-6 max-w-4xl mx-auto">
-            <li><a href="#course" class="text-blue-600 hover:text-blue-800 font-medium">Course</a></li>
-            <!-- <li><a href="#journal" class="text-blue-600 hover:text-blue-800 font-medium">Journal</a></li>
-            <li><a href="#resources" class="text-blue-600 hover:text-blue-800 font-medium">Additional Resources</a></li> -->
-        </ul>
-    </nav>
-    <main class="max-w-4xl mx-auto p-6">
-        <section id="course" class="mb-12">
-            <h2 class="text-3xl font-semibold text-gray-800 mb-6">Course</h2>
-            <div class="bg-white p-6 rounded-lg shadow-md mb-4">
-                <input type="checkbox" id="getting-started-toggle" class="collapse-toggle">
-                <label for="getting-started-toggle" class="collapse-label text-xl font-medium text-gray-800 flex justify-between items-center">
-                    Getting Started
-                    <i class="fa fa-chevron-down text-gray-500 transition-transform"></i>
-                </label>
-                <div class="collapse-content mt-4">
-                    <ul class="list-disc pl-6 text-gray-700">
-                        <li><a href="modules/" class="text-blue-600 hover:underline">😃 Welcome</a></li>
-                        <li><a href="modules/AI/iframes/All_About_Your_Course.html" class="text-blue-600 hover:underline">📚 All About Your Course</a></li>
-                        <li><a href="modlues/AI/iframes/A_snapshot_in_time.html" class="text-blue-600 hover:underline">⚡️ A snapshot in time</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="bg-white p-6 rounded-lg shadow-md mb-4">
-                <input type="checkbox" id="section1-toggle" class="collapse-toggle">
-                <label for="section1-toggle" class="collapse-label text-xl font-medium text-gray-800 flex justify-between items-center">
-                    Section 1: What is AI?
-                    <i class="fa fa-chevron-down text-gray-500 transition-transform"></i>
-                </label>
-                <div class="collapse-content mt-4">
-                    <ul class="list-disc pl-6 text-gray-700">
-                        <li><a href="modules/AI/iframes/Section_1.html" class="text-blue-600 hover:underline">Section 1 Introduction</a></li>
-                        <li><a href="modules/AI/iframes/AI_in_everday_life.html" class="text-blue-600 hover:underline">AI in everyday life</a></li>
-                        <li><a href="modules/AI/iframes/What_is_intelligence.html" class="text-blue-600 hover:underline">What is intelligence?</a></li>
-                        <li><a href="modules/AI/iframes/Activity_What_is_intelligence.html" class="text-blue-600 hover:underline">Activity: What is intelligence?</a></li>
-                        <li><a href="modules/AI/iframes/Scale_of_intelligence.html" class="text-blue-600 hover:underline">Activity: A scale of intelligence</a></li>
-                        <li><a href="modules/AI/iframes/Brief_history_lesson.html" class="text-blue-600 hover:underline">A brief history lesson</a></li>
-                        <li><a href="modules/AI/iframes/The_AI_effect.html" class="text-blue-600 hover:underline">The AI effect</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="bg-white p-6 rounded-lg shadow-md mb-4">
-                <input type="checkbox" id="section2-toggle" class="collapse-toggle">
-                <label for="section2-toggle" class="collapse-label text-xl font-medium text-gray-800 flex justify-between items-center">
-                    Section 2: Types of AI
-                    <i class="fa fa-chevron-down text-gray-500 transition-transform"></i>
-                </label>
-                <div class="collapse-content mt-4">
-                    <ul class="list-disc pl-6 text-gray-700">
-                        <li><a href="#" class="text-blue-600 hover:underline">Section 2 Introduction</a></li>
-                        <li><a href="#" class="text-blue-600 hover:underline">What are algorithms?</a></li>
-                        <li><a href="#" class="text-blue-600 hover:underline">Classical (symbolic) AIs</a></li>
-                        <li><a href="#" class="text-blue-600 hover:underline">Taking inspiration from nature</a></li>
-                        <li><a href="#" class="text-blue-600 hover:underline">Neural networks fundamentals</a></li>
-                        <li><a href="#" class="text-blue-600 hover:underline">The main types of neural networks</a></li>
-                        <li><a href="#" class="text-blue-600 hover:underline">Neural Networks Drag and Drop</a></li>
-                        <li><a href="#" class="text-blue-600 hover:underline">Machine learning</a></li>
-                        <li><a href="#" class="text-blue-600 hover:underline">Section 2 Quiz</a></li>
-                        <li><a href="#" class="text-blue-600 hover:underline">Section 2 Reflection</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="bg-white p-6 rounded-lg shadow-md mb-4">
-                <input type="checkbox" id="section3-toggle" class="collapse-toggle">
-                <label for="section3-toggle" class="collapse-label text-xl font-medium text-gray-800 flex justify-between items-center">
-                    Section 3: Conversational AI
-                    <i class="fa fa-chevron-down text-gray-500 transition-transform"></i>
-                </label>
-                <div class="collapse-content mt-4">
-                    <ul class="list-disc pl-6 text-gray-700">
-                        <li><a href="#" class="text-blue-600 hover:underline">Section 3 Introduction</a></li>
-                        <li><a href="#" class="text-blue-600 hover:underline">Large language models (LLMs)</a></li>
-                        <li><a href="#" class="text-blue-600 hover:underline">The big three of '23</a></li>
-                        <li><a href="#" class="text-blue-600 hover:underline">Hallucinations</a></li>
-                        <li><a href="#" class="text-blue-600 hover:underline">Connected conversational AIs</a></li>
-                        <li><a href="#" class="text-blue-600 hover:underline">The bootstrap problem</a></li>
-                        <li><a href="#" class="text-blue-600 hover:underline">Section 3 Quiz</a></li>
-                        <li><a href="#" class="text-blue-600 hover:underline">Section 3 Reflection</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="bg-white p-6 rounded-lg shadow-md mb-4">
-                <input type="checkbox" id="section4-toggle" class="collapse-toggle">
-                <label for="section4-toggle" class="collapse-label text-xl font-medium text-gray-800 flex justify-between items-center">
-                    Section 4: Prompt Engineering
-                    <i class="fa fa-chevron-down text-gray-500 transition-transform"></i>
-                </label>
-                <div class="collapse-content mt-4">
-                    <ul class="list-disc pl-6 text-gray-700">
-                        <li><a href="#" class="text-blue-600 hover:underline">Section 4 Introduction</a></li>
-                        <li><a href="#" class="text-blue-600 hover:underline">Detail and refinement</a></li>
-                        <li><a href="#" class="text-blue-600 hover:underline">Simulation and simulacra</a></li>
-                        <li><a href="#" class="text-blue-600 hover:underline">Activity: Simulation and simulacra</a></li>
-                        <li><a href="#" class="text-blue-600 hover:underline">Who, when, with, what, why?</a></li>
-                        <li><a href="#" class="text-blue-600 hover:underline">Prompts for learning</a></li>
-                        <li><a href="#" class="text-blue-600 hover:underline">Image generation</a></li>
-                        <li><a href="#" class="text-blue-600 hover:underline">What else can an AI generate?</a></li>
-                        <li><a href="#" class="text-blue-600 hover:underline">Section 4 Quiz</a></li>
-                        <li><a href="#" class="text-blue-600 hover:underline">Section 4 Reflection</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="bg-white p-6 rounded-lg shadow-md mb-4">
-                <input type="checkbox" id="section5-toggle" class="collapse-toggle">
-                <label for="section5-toggle" class="collapse-label text-xl font-medium text-gray-800 flex justify-between items-center">
-                    Section 5: Society and AI
-                    <i class="fa fa-chevron-down text-gray-500 transition-transform"></i>
-                </label>
-                <div class="collapse-content mt-4">
-                    <ul class="list-disc pl-6 text-gray-700">
-                        <li><a href="#" class="text-blue-600 hover:underline">Section 5 Introduction</a></li>
-                        <li><a href="#" class="text-blue-600 hover:underline">Inclusion and accessibility</a></li>
-                        <li><a href="#" class="text-blue-600 hover:underline">Healthcare, finance and cybersecurity</a></li>
-                        <li><a href="#" class="text-blue-600 hover:underline">Bias</a></li>
-                        <li><a href="#" class="text-blue-600 hover:underline">Ethics and Alignment</a></li>
-                        <li><a href="#" class="text-blue-600 hover:underline">Fake news and deepfakes</a></li>
-                        <li><a href="#" class="text-blue-600 hover:underline">Safety and responsibility</a></li>
-                        <li><a href="#" class="text-blue-600 hover:underline">Section 5 Quiz</a></li>
-                        <li><a href="#" class="text-blue-600 hover:underline">Section 5 Reflection</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="bg-white p-6 rounded-lg shadow-md mb-4">
-                <input type="checkbox" id="section6-toggle" class="collapse-toggle">
-                <label for="section6-toggle" class="collapse-label text-xl font-medium text-gray-800 flex justify-between items-center">
-                    Section 6: The Future of AI
-                    <i class="fa fa-chevron-down text-gray-500 transition-transform"></i>
-                </label>
-                <div class="collapse-content mt-4">
-                    <ul class="list-disc pl-6 text-gray-700">
-                        <li><a href="#" class="text-blue-600 hover:underline">Section 6 Introduction</a></li>
-                        <li><a href="#" class="text-blue-600 hover:underline">Where are we on the sigmoid curve?</a></li>
-                        <li><a href="#" class="text-blue-600 hover:underline">Jobs and intellectual property</a></li>
-                        <li><a href="#" class="text-blue-600 hover:underline">Artificial general intelligence (AGI)</a></li>
-                        <li><a href="#" class="text-blue-600 hover:underline">Existential threat!?</a></li>
-                        <li><a href="#" class="text-blue-600 hover:underline">It all comes down to this...</a></li>
-                        <li><a href="#" class="text-blue-600 hover:underline">Section 6 Quiz</a></li>
-                        <li><a href="#" class="text-blue-600 hover:underline">Section 6 Reflection</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="bg-white p-6 rounded-lg shadow-md">
-                <h3 class="text-xl font-medium text-gray-800">Course Certificate</h3>
-                <p class="mt-2 text-gray-700">Earn a certificate upon successful completion of the course.</p>
-                <ul class="mt-4 list-disc pl-6 text-gray-700">
-                    <li><a href="#" class="text-blue-600 hover:underline">Certificate Requirements</a></li>
-                    <li><a href="#" class="text-blue-600 hover:underline">Claim Your Certificate</a></li>
-                </ul>
-            </div>
-        </section>
-        <section id="journal" class="mb-12">
-            <h2 class="text-3xl font-semibold text-gray-800 mb-6">Journal</h2>
-            <div class="bg-white p-6 rounded-lg shadow-md">
-                <p class="text-gray-700">Keep a journal of your learning experiences and insights throughout the course.</p>
-                <ul class="mt-4 list-disc pl-6 text-gray-700">
-                    <li><a href="#" class="text-blue-600 hover:underline">Journal Guidelines</a></li>
-                    <li><a href="#" class="text-blue-600 hover:underline">Submit Entry</a></li>
-                    <li><a href="#" class="text-blue-600 hover:underline">View Entries</a></li>
-                </ul>
-            </div>
-        </section>
-        <section id="resources" class="mb-12">
-            <h2 class="text-3xl font-semibold text-gray-800 mb-6">Additional Resources</h2>
-            <div class="bg-white p-6 rounded-lg shadow-md">
-                <p class="text-gray-700">Explore supplementary materials, readings, and tools to enhance your learning.</p>
-                <ul class="mt-4 list-disc pl-6 text-gray-700">
-                    <li><a href="#" class="text-blue-600 hover:underline">Recommended Books</a></li>
-                    <li><a href="#" class="text-blue-600 hover:underline">Online Tools</a></li>
-                    <li><a href="#" class="text-blue-600 hover:underline">Research Papers</a></li>
-                </ul>
-            </div>
-        </section>
-    </main>
-    <footer class="bg-gray-800 text-white p-6 text-center">
-        <p>© 2025 AI Course. All rights reserved.</p>
-    </footer>
+
+    <!-- iframe -->
+    <iframe id="contentFrame" title="Course Content" class="flex-1 w-full bg-white"></iframe>
+
+    <!-- Navigation bar -->
+    <div class="p-4 bg-gray-100 border-t flex justify-between gap-2">
+      <button id="prevBtn" class="px-4 py-2 rounded border bg-white shadow-sm disabled:opacity-40 disabled:cursor-not-allowed">⬅️ Previous</button>
+      <button id="nextBtn" class="px-4 py-2 rounded border bg-white shadow-sm disabled:opacity-40 disabled:cursor-not-allowed">Next ➡️</button>
+    </div>
+  </div>
+
+  <script>
+    // ---------- DATA -------------------------------------------
+    const courses = [
+      {
+        title: "AI Fundamentals",
+        sections: [
+          {
+            title: "Getting Started",
+            pages: [
+              { title: "😃 Welcome", url: "modules/AI/iframes/welcome.html" },
+              { title: "📚 All About Your Course", url: "modules/AI/iframes/All_About_Your_Course.html" },
+              { title: "⚡️ A snapshot in time", url: "modlues/AI/iframes/A_snapshot_in_time.html" },
+            ],
+          },
+          {
+            title: "Section 1: What is AI?",
+            pages: [
+              { title: "Section 1 Introduction", url: "modules/AI/iframes/Section_1.html" },
+              { title: "AI in everyday life", url: "modules/AI/iframes/AI_in_everday_life.html" },
+              { title: "What is intelligence?", url: "modules/AI/iframes/What_is_intelligence.html" },
+              { title: "Activity: What is intelligence?", url: "modules/AI/iframes/Activity_What_is_intelligence.html" },
+              { title: "Activity: A scale of intelligence", url: "modules/AI/iframes/Scale_of_intelligence.html" },
+              { title: "A brief history lesson", url: "modules/AI/iframes/Brief_history_lesson.html" },
+              { title: "The AI effect", url: "modules/AI/iframes/The_AI_effect.html" },
+            ],
+          },
+          {
+            title: "Section 2: Types of AI",
+            pages: [
+              { title: "Section 2 Introduction", url: "#" },
+              { title: "What are algorithms?", url: "#" },
+              { title: "Classical (symbolic) AIs", url: "#" },
+              { title: "Taking inspiration from nature", url: "#" },
+              { title: "Neural networks fundamentals", url: "#" },
+              { title: "The main types of neural networks", url: "#" },
+              { title: "Neural Networks Drag and Drop", url: "#" },
+              { title: "Machine learning", url: "#" },
+              { title: "Section 2 Quiz", url: "#" },
+              { title: "Section 2 Reflection", url: "#" },
+            ],
+          },
+          {
+            title: "Section 3: Conversational AI",
+            pages: [
+              { title: "Section 3 Introduction", url: "#" },
+              { title: "Large language models (LLMs)", url: "#" },
+              { title: "The big three of '23", url: "#" },
+              { title: "Hallucinations", url: "#" },
+              { title: "Connected conversational AIs", url: "#" },
+              { title: "The bootstrap problem", url: "#" },
+              { title: "Section 3 Quiz", url: "#" },
+              { title: "Section 3 Reflection", url: "#" },
+            ],
+          },
+          {
+            title: "Section 4: Prompt Engineering",
+            pages: [
+              { title: "Section 4 Introduction", url: "#" },
+              { title: "Detail and refinement", url: "#" },
+              { title: "Simulation and simulacra", url: "#" },
+              { title: "Activity: Simulation and simulacra", url: "#" },
+              { title: "Who, when, with, what, why?", url: "#" },
+              { title: "Prompts for learning", url: "#" },
+              { title: "Image generation", url: "#" },
+              { title: "What else can an AI generate?", url: "#" },
+              { title: "Section 4 Quiz", url: "#" },
+              { title: "Section 4 Reflection", url: "#" },
+            ],
+          },
+          {
+            title: "Section 5: Society and AI",
+            pages: [
+              { title: "Section 5 Introduction", url: "#" },
+              { title: "Inclusion and accessibility", url: "#" },
+              { title: "Healthcare, finance and cybersecurity", url: "#" },
+              { title: "Bias", url: "#" },
+              { title: "Ethics and Alignment", url: "#" },
+              { title: "Fake news and deepfakes", url: "#" },
+              { title: "Safety and responsibility", url: "#" },
+              { title: "Section 5 Quiz", url: "#" },
+              { title: "Section 5 Reflection", url: "#" },
+            ],
+          },
+          {
+            title: "Section 6: The Future of AI",
+            pages: [
+              { title: "Section 6 Introduction", url: "#" },
+              { title: "Where are we on the sigmoid curve?", url: "#" },
+              { title: "Jobs and intellectual property", url: "#" },
+              { title: "Artificial general intelligence (AGI)", url: "#" },
+              { title: "Existential threat!?", url: "#" },
+              { title: "It all comes down to this...", url: "#" },
+              { title: "Section 6 Quiz", url: "#" },
+              { title: "Section 6 Reflection", url: "#" },
+            ],
+          },
+        ],
+      },
+      { title: "Applying for University", sections: [] },
+      { title: "Coding Games with Python", sections: [] },
+      { title: "Creative Problem Solving", sections: [] },
+      { title: "CV Writing", sections: [] },
+      { title: "Entrepreneurship", sections: [] },
+      { title: "Job Interview Skills", sections: [] },
+      { title: "Making an Impact", sections: [] },
+      { title: "Personal Statement Writing", sections: [] },
+      { title: "Preparing for BMAT", sections: [] },
+      { title: "Preparing for LNAT", sections: [] },
+      { title: "Preparing for TSA", sections: [] },
+      { title: "Public Speaking", sections: [] },
+      { title: "Resilience", sections: [] },
+      { title: "Study Skills", sections: [] },
+      { title: "University Interview Skills", sections: [] },
+      { title: "Verbal Communication", sections: [] },
+      { title: "Writing Skills", sections: [] },
+    ];
+
+    // ---------- STATE ------------------------------------------
+    let currentCourseIdx = null;
+    let currentPageIdx = null;
+    let flatPages = [];
+
+    // ---------- DOM BUILDING -----------------------------------
+    const sidebarContent = document.getElementById("sidebarContent");
+
+    function buildSidebar() {
+      courses.forEach((course, cIdx) => {
+        const courseDetails = document.createElement("details");
+        courseDetails.className = "mb-2 group";
+
+        const courseSummary = document.createElement("summary");
+        courseSummary.className = "font-semibold cursor-pointer flex justify-between items-center text-gray-800 hover:text-blue-600";
+        courseSummary.innerHTML = `${course.title} <span class="transition-transform group-open:rotate-180">▾</span>`;
+        courseDetails.appendChild(courseSummary);
+
+        course.sections.forEach((section, sIdx) => {
+          const sectionDetails = document.createElement("details");
+          sectionDetails.className = "ml-4 mt-1 mb-1 group";
+
+          const sectionSummary = document.createElement("summary");
+          sectionSummary.className = "cursor-pointer flex justify-between items-center text-sm text-gray-600 hover:text-blue-600";
+          sectionSummary.innerHTML = `${section.title} <span class="transition-transform group-open:rotate-180">▾</span>`;
+          sectionDetails.appendChild(sectionSummary);
+
+          const ul = document.createElement("ul");
+          ul.className = "list-disc ml-6 mt-1 space-y-1 text-sm";
+
+          section.pages.forEach((page, pIdx) => {
+            const li = document.createElement("li");
+            const btn = document.createElement("button");
+            btn.textContent = page.title;
+            btn.className = "text-left hover:underline text-gray-700 w-full"
+            btn.addEventListener("click", () => selectPage(cIdx, getFlatPageIndex(course, sIdx, pIdx)));
+            li.appendChild(btn);
+            ul.appendChild(li);
+          });
+          sectionDetails.appendChild(ul);
+          courseDetails.appendChild(sectionDetails);
+        });
+
+        sidebarContent.appendChild(courseDetails);
+      });
+    }
+
+    function getFlatPageIndex(course, sectionIdx, pageIdx) {
+      let index = 0;
+      course.sections.forEach((sec, s) => {
+        if (s < sectionIdx) index += sec.pages.length;
+      });
+      return index + pageIdx;
+    }
+
+    // ---------- PAGE SELECTION & NAV ----------------------------
+    const frame = document.getElementById("contentFrame");
+    const prevBtn = document.getElementById("prevBtn");
+    const nextBtn = document.getElementById("nextBtn");
+    const pageTitle = document.getElementById("pageTitle");
+
+    function selectPage(courseIdx, pageIdx) {
+      if (courseIdx !== currentCourseIdx) {
+        currentCourseIdx = courseIdx;
+        flatPages = courses[courseIdx].sections.flatMap(sec => sec.pages);
+      }
+      currentPageIdx = pageIdx;
+      const page = flatPages[pageIdx];
+      frame.src = page.url;
+      pageTitle.textContent = page.title;
+      updateNav();
+      highlightActive(page.title);
+    }
+
+    function updateNav() {
+      prevBtn.disabled = currentPageIdx <= 0;
+      nextBtn.disabled = currentPageIdx >= flatPages.length - 1;
+    }
+
+    function highlightActive(title) {
+      // remove previous highlights and summary highlights
+      document.querySelectorAll(".active-page").forEach(el => el.classList.remove("active-page"));
+      document.querySelectorAll(".active-summary").forEach(el => el.classList.remove("active-summary"));
+
+      // highlight button
+      const btn = [...sidebarContent.querySelectorAll("button")].find(b => b.textContent === title);
+      if (btn) btn.classList.add("active-page");
+
+      // also highlight its parent summaries
+      let el = btn.parentElement;
+      while (el && el.tagName !== "ASIDE") {
+        if (el.tagName === "SUMMARY") el.classList.add("active-summary");
+        el = el.parentElement;
+      }
+    }
+
+    prevBtn.addEventListener("click", () => {
+      if (currentPageIdx > 0) selectPage(currentCourseIdx, currentPageIdx - 1);
+    });
+
+    nextBtn.addEventListener("click", () => {
+      if (currentPageIdx < flatPages.length - 1) selectPage(currentCourseIdx, currentPageIdx + 1);
+    });
+
+    // INIT ----------------------------------------------------------------
+    buildSidebar();
+    // auto-open first course for better UX
+    const firstCourseDetails = sidebarContent.querySelector("details");
+    firstCourseDetails.setAttribute("open", "");
+  </script>
 </body>
 </html>
