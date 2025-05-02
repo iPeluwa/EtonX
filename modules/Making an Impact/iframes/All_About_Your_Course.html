@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>AI All About Your Course</title>
+    <script type="text/javascript" src="app/scorm-config.js"></script>
+    <script type="text/javascript" src="app/scorm.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <style>
+        html,
+        body {
+            height: 100%;
+            max-height: 100%;
+        }
+
+        body {
+            margin: 0;
+            width: 100%;
+            display: flex;
+            align-items: center;
+        }
+
+        .genially-embed {
+            max-height: 100vh;
+            height: 100% !important;
+        }
+
+        .next-activity-wrapper {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            z-index: 1000;
+            font-family: 'Schibsted Grotesk', sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            gap: 12px;
+        }
+
+        .current-activity-card {
+            background: white;
+            padding: 12px 16px;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            font-size: 1rem;
+            color: #333;
+            max-width: 300px;
+            border: 1px solid #e5e7eb;
+        }
+
+        .next-activity-btn,
+        .prev-activity-btn {
+            color: white;
+            padding: 12px 24px;
+            border-radius: 9999px;
+            font-size: 1.1rem;
+            font-weight: 600;
+            border: none;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+            transition: transform 0.2s, box-shadow 0.2s;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            cursor: pointer;
+        }
+
+        .next-activity-btn {
+            background: linear-gradient(to right, #3b82f6, #8b5cf6);
+        }
+
+        .prev-activity-btn {
+            background: linear-gradient(to right, #8b5cf6, #ec4899);
+        }
+
+        .next-activity-btn:hover,
+        .prev-activity-btn:hover {
+            transform: scale(1.05);
+            box-shadow: 0 6px 16px rgba(0, 0, 0, 0.3);
+        }
+
+        .next-activity-btn:disabled,
+        .prev-activity-btn:disabled {
+            background: #d1d5db;
+            cursor: not-allowed;
+            transform: none;
+            box-shadow: none;
+        }
+
+        @media (max-width: 640px) {
+            .next-activity-wrapper {
+                bottom: 10px;
+                right: 10px;
+            }
+
+            .current-activity-card {
+                max-width: 200px;
+                font-size: 0.9rem;
+                padding: 8px 12px;
+            }
+
+            .next-activity-btn,
+            .prev-activity-btn {
+                padding: 10px 16px;
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container-wrapper-genially" style="position: relative; min-height: 400px; width: 100%;">
+        <img src="https://img.genially.com/58368c91ba1aa62f3065085d/1daae5c2-843d-4893-bd1c-eb10e20b8d3f.gif"
+            alt="Custom genially loader" class="loader-genially"
+            style="position: absolute; top: 0; right: 0; bottom: 0; left: 0; margin-top: auto; margin-right: auto; margin-bottom: auto; margin-left: auto; z-index: 1; width: 120px;" />
+        <div id="6756d45d8d5a8a30a2e26ff7" data-genially-elearning="true"
+            data-url-view-elearning="https://view.genially.com" class="genially-embed"
+            style="margin: 0px auto; position: relative; height: auto; width: 100%;"></div>
+    </div>
+    <div class="next-activity-wrapper">
+        <div class="current-activity-card">
+            Current Activity: <span id="current-activity">📚 All About Your Course</span>
+        </div>
+        <button id="prev-activity-btn" class="prev-activity-btn">
+            <i class="fa fa-arrow-left"></i> Previous Activity
+        </button>
+        <button id="next-activity-btn" class="next-activity-btn">
+            Next Activity <i class="fa fa-arrow-right"></i>
+        </button>
+    </div>
+    <script src="https://view.genially.com/static/embed/embed.js" async></script>
+    <script defer type="text/javascript" src="../activityNavigation.js"></script>
+</body>
+</html>
